@@ -1,0 +1,16 @@
+/home/kacper/Documents/projspec/projspec_ws/install/proj_spec/lib/proj_spec/talker
+/home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/ament_index/resource_index/package_run_dependencies/proj_spec
+/home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/ament_index/resource_index/parent_prefix_path/proj_spec
+/home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/ament_prefix_path.sh
+/home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/ament_prefix_path.dsv
+/home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/path.sh
+/home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/path.dsv
+/home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.bash
+/home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.sh
+/home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.zsh
+/home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.dsv
+/home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/package.dsv
+/home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/ament_index/resource_index/packages/proj_spec
+/home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/cmake/proj_specConfig.cmake
+/home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/cmake/proj_specConfig-version.cmake
+/home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/package.xml

@@ -1,0 +1,25 @@
+[0.011s] Invoking command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16
+[0.037s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[5.331s] [100%] [32m[1mLinking CXX executable talker[0m
+[5.571s] [100%] Built target talker
+[5.598s] Invoked command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16
+[5.613s] Invoking command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /home/kacper/Documents/projspec/projspec_ws/build/proj_spec
+[5.616s] -- Install configuration: ""
+[5.616s] -- Installing: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/lib/proj_spec/talker
+[5.619s] -- Set runtime path of "/home/kacper/Documents/projspec/projspec_ws/install/proj_spec/lib/proj_spec/talker" to ""
+[5.619s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/ament_index/resource_index/package_run_dependencies/proj_spec
+[5.619s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/ament_index/resource_index/parent_prefix_path/proj_spec
+[5.619s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/ament_prefix_path.sh
+[5.619s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/ament_prefix_path.dsv
+[5.619s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/path.sh
+[5.619s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/path.dsv
+[5.619s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.bash
+[5.619s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.sh
+[5.619s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.zsh
+[5.619s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.dsv
+[5.619s] -- Installing: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/package.dsv
+[5.619s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/ament_index/resource_index/packages/proj_spec
+[5.619s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/cmake/proj_specConfig.cmake
+[5.620s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/cmake/proj_specConfig-version.cmake
+[5.620s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/package.xml
+[5.623s] Invoked command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /home/kacper/Documents/projspec/projspec_ws/build/proj_spec

@@ -1,0 +1,21 @@
+[0.009s] Invoking command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16
+[0.028s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.038s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.217s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:38:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kdrive[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.217s]    38 |   [01;31m[Kdrive[m[K(double lx, double az)
+[1.217s]       |   [01;31m[K^~~~~[m[K
+[1.220s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kint Robot::drive(double, double)[m[K’:
+[1.221s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:45:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[1.221s]    45 |   [01;35m[K}[m[K
+[1.221s]       |   [01;35m[K^[m[K
+[1.221s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.221s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:56:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Robot[m[K’ has no member named ‘[01m[Kinit[m[K’
+[1.221s]    56 |   R.[01;31m[Kinit[m[K(argc, argv);
+[1.221s]       |     [01;31m[K^~~~[m[K
+[1.221s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:58:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Robot[m[K’ has no member named ‘[01m[Kshutdown[m[K’
+[1.221s]    58 |   R.[01;31m[Kshutdown[m[K();
+[1.221s]       |     [01;31m[K^~~~~~~~[m[K
+[1.615s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[1.615s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+[1.615s] gmake: *** [Makefile:146: all] Error 2
+[1.616s] Invoked command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16

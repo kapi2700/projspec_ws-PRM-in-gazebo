@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.000157] (proj_spec) JobQueued: {'identifier': 'proj_spec', 'dependencies': OrderedDict()}
+[0.000285] (proj_spec) JobStarted: {'identifier': 'proj_spec'}
+[0.007521] (proj_spec) JobProgress: {'identifier': 'proj_spec', 'progress': 'cmake'}
+[0.007815] (proj_spec) JobProgress: {'identifier': 'proj_spec', 'progress': 'build'}
+[0.008133] (proj_spec) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec', '--', '-j16', '-l16'], 'cwd': '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kacper'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/kacper'), ('OLDPWD', '/home/kacper/Documents/projspec/projspec_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1938'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1d3b245f3d56f590f6d0a97f63972ea1'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kacper/Documents/projspec/projspec_ws/install'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'kacper'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kacper'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kacper-MS-7D25:@/tmp/.ICE-unix/1938,unix/kacper-MS-7D25:/tmp/.ICE-unix/1938'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/45cd2778_463f_4425_9e64_f8eb72a022c8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DRMYW1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.145'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kacper/Documents/projspec/projspec_ws/install/proj_spec:/opt/ros/rolling'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1d3b245f3d56f590f6d0a97f63972ea1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kacper/Documents/projspec/projspec_ws/install/proj_spec:/opt/ros/rolling')]), 'shell': False}
+[0.029266] (proj_spec) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.039671] (proj_spec) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.099917] (-) TimerEvent: {}
+[0.200152] (-) TimerEvent: {}
+[0.300364] (-) TimerEvent: {}
+[0.400610] (-) TimerEvent: {}
+[0.500832] (-) TimerEvent: {}
+[0.601069] (-) TimerEvent: {}
+[0.701288] (-) TimerEvent: {}
+[0.801494] (-) TimerEvent: {}
+[0.901703] (-) TimerEvent: {}
+[1.001915] (-) TimerEvent: {}
+[1.102129] (-) TimerEvent: {}
+[1.202342] (-) TimerEvent: {}
+[1.302557] (-) TimerEvent: {}
+[1.402791] (-) TimerEvent: {}
+[1.503013] (-) TimerEvent: {}
+[1.603238] (-) TimerEvent: {}
+[1.703448] (-) TimerEvent: {}
+[1.803663] (-) TimerEvent: {}
+[1.903872] (-) TimerEvent: {}
+[2.004085] (-) TimerEvent: {}
+[2.104299] (-) TimerEvent: {}
+[2.204530] (-) TimerEvent: {}
+[2.304798] (-) TimerEvent: {}
+[2.405015] (-) TimerEvent: {}
+[2.505224] (-) TimerEvent: {}
+[2.605435] (-) TimerEvent: {}
+[2.705642] (-) TimerEvent: {}
+[2.805869] (-) TimerEvent: {}
+[2.906106] (-) TimerEvent: {}
+[3.006311] (-) TimerEvent: {}
+[3.106521] (-) TimerEvent: {}
+[3.206724] (-) TimerEvent: {}
+[3.306997] (-) TimerEvent: {}
+[3.407203] (-) TimerEvent: {}
+[3.507424] (-) TimerEvent: {}
+[3.607659] (-) TimerEvent: {}
+[3.707925] (-) TimerEvent: {}
+[3.808197] (-) TimerEvent: {}
+[3.908485] (-) TimerEvent: {}
+[4.008741] (-) TimerEvent: {}
+[4.109007] (-) TimerEvent: {}
+[4.209335] (-) TimerEvent: {}
+[4.309595] (-) TimerEvent: {}
+[4.409846] (-) TimerEvent: {}
+[4.510104] (-) TimerEvent: {}
+[4.610367] (-) TimerEvent: {}
+[4.710641] (-) TimerEvent: {}
+[4.810905] (-) TimerEvent: {}
+[4.911183] (-) TimerEvent: {}
+[4.985513] (proj_spec) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[5.011275] (-) TimerEvent: {}
+[5.111549] (-) TimerEvent: {}
+[5.211816] (-) TimerEvent: {}
+[5.216175] (proj_spec) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[5.311909] (-) TimerEvent: {}
+[5.356499] (proj_spec) CommandEnded: {'returncode': 0}
+[5.366060] (proj_spec) JobProgress: {'identifier': 'proj_spec', 'progress': 'install'}
+[5.369851] (proj_spec) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec'], 'cwd': '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kacper'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/kacper'), ('OLDPWD', '/home/kacper/Documents/projspec/projspec_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1938'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1d3b245f3d56f590f6d0a97f63972ea1'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kacper/Documents/projspec/projspec_ws/install'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'kacper'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kacper'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kacper-MS-7D25:@/tmp/.ICE-unix/1938,unix/kacper-MS-7D25:/tmp/.ICE-unix/1938'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/45cd2778_463f_4425_9e64_f8eb72a022c8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DRMYW1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.145'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kacper/Documents/projspec/projspec_ws/install/proj_spec:/opt/ros/rolling'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1d3b245f3d56f590f6d0a97f63972ea1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kacper/Documents/projspec/projspec_ws/install/proj_spec:/opt/ros/rolling')]), 'shell': False}
+[5.373149] (proj_spec) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.373233] (proj_spec) StdoutLine: {'line': b'-- Installing: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/lib/proj_spec/talker\n'}
+[5.376281] (proj_spec) StdoutLine: {'line': b'-- Set runtime path of "/home/kacper/Documents/projspec/projspec_ws/install/proj_spec/lib/proj_spec/talker" to ""\n'}
+[5.376414] (proj_spec) StdoutLine: {'line': b'-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/ament_index/resource_index/package_run_dependencies/proj_spec\n'}
+[5.376468] (proj_spec) StdoutLine: {'line': b'-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/ament_index/resource_index/parent_prefix_path/proj_spec\n'}
+[5.376508] (proj_spec) StdoutLine: {'line': b'-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/ament_prefix_path.sh\n'}
+[5.376540] (proj_spec) StdoutLine: {'line': b'-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/ament_prefix_path.dsv\n'}
+[5.376575] (proj_spec) StdoutLine: {'line': b'-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/path.sh\n'}
+[5.376622] (proj_spec) StdoutLine: {'line': b'-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/path.dsv\n'}
+[5.376653] (proj_spec) StdoutLine: {'line': b'-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.bash\n'}
+[5.376682] (proj_spec) StdoutLine: {'line': b'-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.sh\n'}
+[5.376710] (proj_spec) StdoutLine: {'line': b'-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.zsh\n'}
+[5.376738] (proj_spec) StdoutLine: {'line': b'-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.dsv\n'}
+[5.376767] (proj_spec) StdoutLine: {'line': b'-- Installing: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/package.dsv\n'}
+[5.376796] (proj_spec) StdoutLine: {'line': b'-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/ament_index/resource_index/packages/proj_spec\n'}
+[5.376825] (proj_spec) StdoutLine: {'line': b'-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/cmake/proj_specConfig.cmake\n'}
+[5.376854] (proj_spec) StdoutLine: {'line': b'-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/cmake/proj_specConfig-version.cmake\n'}
+[5.376884] (proj_spec) StdoutLine: {'line': b'-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/package.xml\n'}
+[5.377502] (proj_spec) CommandEnded: {'returncode': 0}
+[5.400878] (proj_spec) JobEnded: {'identifier': 'proj_spec', 'rc': 0}
+[5.401230] (-) EventReactorShutdown: {}

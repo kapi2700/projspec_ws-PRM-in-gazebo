@@ -1,0 +1,13 @@
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid RobotSteering::topic_callback(const Odometry&) const[m[K’:
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:111:11:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+  111 |           [01;35m[Kif[m[K(abs(zToRotate<0.2))
+      |           [01;35m[K^~[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:113:13:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+  113 |             [01;36m[Kif[m[K
+      |             [01;36m[K^~[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:114:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[Kelse[m[K’
+  114 |           [01;31m[Kelse[m[K
+      |           [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

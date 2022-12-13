@@ -1,0 +1,83 @@
+[0.009s] Invoking command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16
+[0.028s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.038s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.212s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[1.212s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:34:32:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMinimalPublisher[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+[1.212s]    34 |   : Node("minimal_publisher"), [01;31m[Kcount_[m[K(0)
+[1.212s]       |                                [01;31m[K^~~~~~[m[K
+[1.215s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:36:79:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > > >[m[K’} and ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> > >[m[K’)
+[1.215s]    36 | sher_ = this->create_publisher<geometry_msgs::msg::Twist>("topic", 10[01;31m[K)[m[K;
+[1.215s]       |                                                                      [01;31m[K^[m[K
+[1.216s] 
+[1.216s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.216s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:17[m[K:
+[1.216s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >][m[K’
+[1.216s]   363 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[1.216s]       |         [01;36m[K^~~~~~~~[m[K
+[1.216s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.216s] /usr/include/c++/11/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> > >&; _Tp = rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >][m[K’:
+[1.216s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> >][m[K’
+[1.216s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:36:79:[m[K   required from here
+[1.216s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:130:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > > >&>[m[K’
+[1.216s]   130 |         using [01;31m[K_Assignable[m[K = typename enable_if<
+[1.216s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[1.216s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >][m[K’
+[1.216s]   374 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[1.216s]       |         [01;36m[K^~~~~~~~[m[K
+[1.216s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.216s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:36:79:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[1.216s]    36 | sher_ = this->create_publisher<geometry_msgs::msg::Twist>("topic", 10[01;36m[K)[m[K;
+[1.216s]       |                                                                      [01;36m[K^[m[K
+[1.216s] 
+[1.216s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.216s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:17[m[K:
+[1.216s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >][m[K’
+[1.216s]   391 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[1.216s]       |         [01;36m[K^~~~~~~~[m[K
+[1.216s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.216s] /usr/include/c++/11/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> > >; _Tp = rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >][m[K’:
+[1.216s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> >][m[K’
+[1.216s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:36:79:[m[K   required from here
+[1.216s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:130:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > > >&>[m[K’
+[1.216s]   130 |         using [01;31m[K_Assignable[m[K = typename enable_if<
+[1.216s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[1.216s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >][m[K’
+[1.216s]   399 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[1.217s]       |         [01;36m[K^~~~~~~~[m[K
+[1.217s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.217s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:36:79:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[1.217s]    36 | sher_ = this->create_publisher<geometry_msgs::msg::Twist>("topic", 10[01;36m[K)[m[K;
+[1.217s]       |                                                                      [01;36m[K^[m[K
+[1.217s] 
+[1.217s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.217s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:17[m[K:
+[1.217s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >][m[K’
+[1.217s]   359 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[1.217s]       |                   [01;36m[K^~~~~~~~[m[K
+[1.217s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> > >[m[K’ to ‘[01m[Kconst std::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > > >&[m[K’
+[1.217s]   359 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[1.217s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[1.217s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >][m[K’
+[1.217s]   383 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[1.217s]       |       [01;36m[K^~~~~~~~[m[K
+[1.217s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> > >[m[K’ to ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > > >&&[m[K’
+[1.217s]   383 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[1.217s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[1.221s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[1.221s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:44:20:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist[m[K’ is not a member of ‘[01m[Knav_msgs::msg[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::Twist[m[K’?
+[1.221s]    44 |     nav_msgs::msg::[01;31m[KTwist[m[K message;
+[1.221s]       |                    [01;31m[K^~~~~[m[K
+[1.221s] In file included from [01m[K/opt/ros/rolling/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__struct.hpp:20[m[K,
+[1.221s]                  from [01m[K/opt/ros/rolling/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:24[m[K,
+[1.221s]                  from [01m[K/opt/ros/rolling/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[1.221s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:22[m[K:
+[1.221s] [01m[K/opt/ros/rolling/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:134:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Twist[m[K’ declared here
+[1.221s]   134 | using [01;36m[KTwist[m[K =
+[1.221s]       |       [01;36m[K^~~~~[m[K
+[1.225s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+[1.225s]    45 |     [01;31m[Kmessage[m[K.angular.z = 0.5;
+[1.225s]       |     [01;31m[K^~~~~~~[m[K
+[1.576s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[1.576s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+[1.576s] gmake: *** [Makefile:146: all] Error 2
+[1.577s] Invoked command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec' returned '2': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16

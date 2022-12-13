@@ -1,0 +1,14 @@
+[0.010s] Invoking command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16
+[0.028s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.037s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.288s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid RobotSteering::topic_callback(const Odometry&) const[m[K’:
+[1.289s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:119:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kelse[m[K’
+[1.289s]   119 |       [01;31m[Kelse[m[K
+[1.289s]       |       [01;31m[K^~~~[m[K
+[1.289s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:82:5:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.289s]    82 |     [01;36m[K{[m[K
+[1.289s]       |     [01;36m[K^[m[K
+[2.635s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[2.635s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+[2.635s] gmake: *** [Makefile:146: all] Error 2
+[2.636s] Invoked command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16

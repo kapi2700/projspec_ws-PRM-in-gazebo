@@ -1,0 +1,15 @@
+[0.009s] Invoking command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16
+[0.028s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.037s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.259s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid RobotSteering::topic_callback(const Odometry&) const[m[K’:
+[1.259s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:88:17:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[1.259s]    88 |       if([01;35m[KgoodPos=true[m[K)
+[1.259s]       |          [01;35m[K~~~~~~~^~~~~[m[K
+[1.262s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:114:15:[m[K [01;31m[Kerror: [m[K‘[01m[KgoodRot[m[K’ was not declared in this scope; did you mean ‘[01m[KgoodPos[m[K’?
+[1.262s]   114 |       else if([01;31m[KgoodRot[m[K&&!goodPos)
+[1.262s]       |               [01;31m[K^~~~~~~[m[K
+[1.262s]       |               [32m[KgoodPos[m[K
+[2.587s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[2.587s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+[2.587s] gmake: *** [Makefile:146: all] Error 2
+[2.588s] Invoked command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16

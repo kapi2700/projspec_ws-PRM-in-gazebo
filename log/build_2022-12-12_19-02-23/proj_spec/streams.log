@@ -1,0 +1,23 @@
+[0.009s] Invoking command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16
+[0.021s] -- Found ament_cmake: 1.5.2 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.099s] -- Found rclcpp: 17.1.0 (/opt/ros/rolling/share/rclcpp/cmake)
+[0.114s] -- Found rosidl_generator_c: 3.3.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.118s] -- Found rosidl_generator_cpp: 3.3.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.123s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.132s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.165s] -- Found rmw_implementation_cmake: 6.4.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[0.165s] -- Found rmw_fastrtps_cpp: 6.5.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[0.229s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.294s] -- Found std_msgs: 4.6.1 (/opt/ros/rolling/share/std_msgs/cmake)
+[0.311s] -- Found nav_msgs: 4.6.1 (/opt/ros/rolling/share/nav_msgs/cmake)
+[0.379s] [31mCMake Error at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.379s]   ament_target_dependencies() the passed package name 'tf2' was not found
+[0.379s]   before
+[0.379s] Call Stack (most recent call first):
+[0.379s]   CMakeLists.txt:17 (ament_target_dependencies)
+[0.380s] 
+[0.380s] [0m
+[0.380s] -- Configuring incomplete, errors occurred!
+[0.380s] See also "/home/kacper/Documents/projspec/projspec_ws/build/proj_spec/CMakeFiles/CMakeOutput.log".
+[0.383s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.384s] Invoked command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16

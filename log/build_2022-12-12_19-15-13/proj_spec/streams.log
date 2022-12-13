@@ -1,0 +1,30 @@
+[0.009s] Invoking command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16
+[0.028s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.038s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.275s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid RobotSteering::topic_callback(const Odometry&) const[m[K’:
+[1.275s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:63:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KzRot[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.275s]    63 |     float [01;35m[KzRot[m[K=yaw;
+[1.275s]       |           [01;35m[K^~~~[m[K
+[4.685s] [100%] [32m[1mLinking CXX executable talker[0m
+[4.928s] [100%] Built target talker
+[4.933s] Invoked command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16
+[4.947s] Invoking command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /home/kacper/Documents/projspec/projspec_ws/build/proj_spec
+[4.950s] -- Install configuration: ""
+[4.950s] -- Installing: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/lib/proj_spec/talker
+[4.952s] -- Set runtime path of "/home/kacper/Documents/projspec/projspec_ws/install/proj_spec/lib/proj_spec/talker" to ""
+[4.953s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/ament_index/resource_index/package_run_dependencies/proj_spec
+[4.953s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/ament_index/resource_index/parent_prefix_path/proj_spec
+[4.953s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/ament_prefix_path.sh
+[4.953s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/ament_prefix_path.dsv
+[4.953s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/path.sh
+[4.953s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/path.dsv
+[4.953s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.bash
+[4.953s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.sh
+[4.954s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.zsh
+[4.954s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.dsv
+[4.954s] -- Installing: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/package.dsv
+[4.954s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/ament_index/resource_index/packages/proj_spec
+[4.955s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/cmake/proj_specConfig.cmake
+[4.956s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/cmake/proj_specConfig-version.cmake
+[4.956s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/package.xml
+[4.956s] Invoked command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /home/kacper/Documents/projspec/projspec_ws/build/proj_spec

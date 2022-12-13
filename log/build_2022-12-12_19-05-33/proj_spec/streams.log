@@ -1,0 +1,33 @@
+[0.010s] Invoking command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16
+[0.032s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.042s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.290s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid RobotSteering::topic_callback(const Odometry&) const[m[K’:
+[1.290s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:60:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.290s]    60 |     float [01;35m[Kx[m[K=msg.pose.pose.position.x;
+[1.290s]       |           [01;35m[K^[m[K
+[1.290s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:61:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.290s]    61 |     float [01;35m[Ky[m[K=msg.pose.pose.position.y;
+[1.290s]       |           [01;35m[K^[m[K
+[4.636s] [100%] [32m[1mLinking CXX executable talker[0m
+[4.863s] [100%] Built target talker
+[4.868s] Invoked command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16
+[4.883s] Invoking command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /home/kacper/Documents/projspec/projspec_ws/build/proj_spec
+[4.886s] -- Install configuration: ""
+[4.886s] -- Installing: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/lib/proj_spec/talker
+[4.889s] -- Set runtime path of "/home/kacper/Documents/projspec/projspec_ws/install/proj_spec/lib/proj_spec/talker" to ""
+[4.889s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/ament_index/resource_index/package_run_dependencies/proj_spec
+[4.889s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/ament_index/resource_index/parent_prefix_path/proj_spec
+[4.889s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/ament_prefix_path.sh
+[4.889s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/ament_prefix_path.dsv
+[4.889s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/path.sh
+[4.889s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/path.dsv
+[4.889s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.bash
+[4.889s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.sh
+[4.889s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.zsh
+[4.890s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.dsv
+[4.890s] -- Installing: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/package.dsv
+[4.890s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/ament_index/resource_index/packages/proj_spec
+[4.890s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/cmake/proj_specConfig.cmake
+[4.891s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/cmake/proj_specConfig-version.cmake
+[4.891s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/package.xml
+[4.892s] Invoked command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /home/kacper/Documents/projspec/projspec_ws/build/proj_spec

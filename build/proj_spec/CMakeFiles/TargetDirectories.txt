@@ -1,0 +1,10 @@
+/home/kacper/Documents/projspec/projspec_ws/build/proj_spec/CMakeFiles/uninstall.dir
+/home/kacper/Documents/projspec/projspec_ws/build/proj_spec/CMakeFiles/proj_spec_uninstall.dir
+/home/kacper/Documents/projspec/projspec_ws/build/proj_spec/CMakeFiles/talker.dir
+/home/kacper/Documents/projspec/projspec_ws/build/proj_spec/CMakeFiles/test.dir
+/home/kacper/Documents/projspec/projspec_ws/build/proj_spec/CMakeFiles/edit_cache.dir
+/home/kacper/Documents/projspec/projspec_ws/build/proj_spec/CMakeFiles/rebuild_cache.dir
+/home/kacper/Documents/projspec/projspec_ws/build/proj_spec/CMakeFiles/list_install_components.dir
+/home/kacper/Documents/projspec/projspec_ws/build/proj_spec/CMakeFiles/install.dir
+/home/kacper/Documents/projspec/projspec_ws/build/proj_spec/CMakeFiles/install/local.dir
+/home/kacper/Documents/projspec/projspec_ws/build/proj_spec/CMakeFiles/install/strip.dir

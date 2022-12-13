@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.000101] (proj_spec) JobQueued: {'identifier': 'proj_spec', 'dependencies': OrderedDict()}
+[0.000289] (proj_spec) JobStarted: {'identifier': 'proj_spec'}
+[0.011214] (proj_spec) JobProgress: {'identifier': 'proj_spec', 'progress': 'cmake'}
+[0.011308] (proj_spec) Command: {'cmd': ['/usr/bin/cmake', '/home/kacper/Documents/projspec/projspec_ws/src/proj_spec', '-DCMAKE_INSTALL_PREFIX=/home/kacper/Documents/projspec/projspec_ws/install/proj_spec'], 'cwd': '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kacper'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/kacper'), ('OLDPWD', '/home/kacper/Documents/projspec/projspec_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1938'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1d3b245f3d56f590f6d0a97f63972ea1'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'kacper'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kacper'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kacper-MS-7D25:@/tmp/.ICE-unix/1938,unix/kacper-MS-7D25:/tmp/.ICE-unix/1938'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/45cd2778_463f_4425_9e64_f8eb72a022c8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DRMYW1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.145'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1d3b245f3d56f590f6d0a97f63972ea1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[0.099913] (-) TimerEvent: {}
+[0.200127] (-) TimerEvent: {}
+[0.300331] (-) TimerEvent: {}
+[0.400539] (-) TimerEvent: {}
+[0.500749] (-) TimerEvent: {}
+[0.600955] (-) TimerEvent: {}
+[0.701168] (-) TimerEvent: {}
+[0.801428] (-) TimerEvent: {}
+[0.901687] (-) TimerEvent: {}
+[1.001978] (-) TimerEvent: {}
+[1.102234] (-) TimerEvent: {}
+[1.139313] (proj_spec) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.202325] (-) TimerEvent: {}
+[1.302588] (-) TimerEvent: {}
+[1.402847] (-) TimerEvent: {}
+[1.503104] (-) TimerEvent: {}
+[1.523005] (proj_spec) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[1.541781] (proj_spec) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.603180] (-) TimerEvent: {}
+[1.641472] (proj_spec) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.645396] (proj_spec) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.686335] (proj_spec) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.702354] (proj_spec) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.703233] (-) TimerEvent: {}
+[1.747622] (proj_spec) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.803330] (-) TimerEvent: {}
+[1.871623] (proj_spec) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.875993] (proj_spec) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.876173] (proj_spec) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.876435] (proj_spec) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.903397] (-) TimerEvent: {}
+[2.003582] (-) TimerEvent: {}
+[2.019024] (proj_spec) StdoutLine: {'line': b'-- Found ament_cmake: 1.5.2 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[2.103663] (-) TimerEvent: {}
+[2.203863] (-) TimerEvent: {}
+[2.304060] (-) TimerEvent: {}
+[2.362765] (proj_spec) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[2.404134] (-) TimerEvent: {}
+[2.504337] (-) TimerEvent: {}
+[2.604592] (-) TimerEvent: {}
+[2.704832] (-) TimerEvent: {}
+[2.805028] (-) TimerEvent: {}
+[2.899018] (proj_spec) StdoutLine: {'line': b'-- Found rclcpp: 17.1.0 (/opt/ros/rolling/share/rclcpp/cmake)\n'}
+[2.905109] (-) TimerEvent: {}
+[3.005308] (-) TimerEvent: {}
+[3.105512] (-) TimerEvent: {}
+[3.174179] (proj_spec) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.3.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)\n'}
+[3.205582] (-) TimerEvent: {}
+[3.234243] (proj_spec) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.3.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)\n'}
+[3.274905] (proj_spec) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.305659] (-) TimerEvent: {}
+[3.374679] (proj_spec) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.405746] (-) TimerEvent: {}
+[3.505951] (-) TimerEvent: {}
+[3.561029] (proj_spec) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.4.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)\n'}
+[3.563191] (proj_spec) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.5.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.606026] (-) TimerEvent: {}
+[3.706215] (-) TimerEvent: {}
+[3.764426] (proj_spec) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.788300] (proj_spec) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/rolling/include  \n'}
+[3.806287] (-) TimerEvent: {}
+[3.813076] (proj_spec) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.886313] (proj_spec) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.906368] (-) TimerEvent: {}
+[3.967659] (proj_spec) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.967790] (proj_spec) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.006452] (-) TimerEvent: {}
+[4.070155] (proj_spec) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.070786] (proj_spec) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.106520] (-) TimerEvent: {}
+[4.206706] (-) TimerEvent: {}
+[4.306905] (-) TimerEvent: {}
+[4.407101] (-) TimerEvent: {}
+[4.476580] (proj_spec) StdoutLine: {'line': b'-- Found std_msgs: 4.6.1 (/opt/ros/rolling/share/std_msgs/cmake)\n'}
+[4.507173] (-) TimerEvent: {}
+[4.511801] (proj_spec) StdoutLine: {'line': b'-- Found nav_msgs: 4.6.1 (/opt/ros/rolling/share/nav_msgs/cmake)\n'}
+[4.607256] (-) TimerEvent: {}
+[4.628893] (proj_spec) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.13.2 (/opt/ros/rolling/share/ament_lint_auto/cmake)\n'}
+[4.707340] (-) TimerEvent: {}
+[4.807539] (-) TimerEvent: {}
+[4.907736] (-) TimerEvent: {}
+[4.963018] (proj_spec) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.963148] (proj_spec) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.963184] (proj_spec) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.987895] (proj_spec) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.007804] (-) TimerEvent: {}
+[5.013734] (proj_spec) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.013828] (proj_spec) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.014179] (proj_spec) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.048331] (proj_spec) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.053007] (proj_spec) StdoutLine: {'line': b'-- Generating done\n'}
+[5.053788] (proj_spec) StdoutLine: {'line': b'-- Build files have been written to: /home/kacper/Documents/projspec/projspec_ws/build/proj_spec\n'}
+[5.059052] (proj_spec) CommandEnded: {'returncode': 0}
+[5.059464] (proj_spec) JobProgress: {'identifier': 'proj_spec', 'progress': 'build'}
+[5.059908] (proj_spec) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec', '--', '-j16', '-l16'], 'cwd': '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kacper'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/kacper'), ('OLDPWD', '/home/kacper/Documents/projspec/projspec_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1938'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1d3b245f3d56f590f6d0a97f63972ea1'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'kacper'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kacper'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kacper-MS-7D25:@/tmp/.ICE-unix/1938,unix/kacper-MS-7D25:/tmp/.ICE-unix/1938'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/45cd2778_463f_4425_9e64_f8eb72a022c8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DRMYW1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.145'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1d3b245f3d56f590f6d0a97f63972ea1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[5.081706] (proj_spec) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[5.107888] (-) TimerEvent: {}
+[5.208131] (-) TimerEvent: {}
+[5.308392] (-) TimerEvent: {}
+[5.408663] (-) TimerEvent: {}
+[5.508913] (-) TimerEvent: {}
+[5.609169] (-) TimerEvent: {}
+[5.709432] (-) TimerEvent: {}
+[5.809701] (-) TimerEvent: {}
+[5.909957] (-) TimerEvent: {}
+[6.010211] (-) TimerEvent: {}
+[6.110464] (-) TimerEvent: {}
+[6.210739] (-) TimerEvent: {}
+[6.310994] (-) TimerEvent: {}
+[6.411247] (-) TimerEvent: {}
+[6.511501] (-) TimerEvent: {}
+[6.611753] (-) TimerEvent: {}
+[6.712004] (-) TimerEvent: {}
+[6.812255] (-) TimerEvent: {}
+[6.912524] (-) TimerEvent: {}
+[6.920745] (proj_spec) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:22:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knav_msgs/msg/Odometry: No such file or directory\n'}
+[6.920859] (proj_spec) StderrLine: {'line': b'   22 | #include \x1b[01;31m\x1b[K"nav_msgs/msg/Odometry"\x1b[m\x1b[K\n'}
+[6.920897] (proj_spec) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.920938] (proj_spec) StderrLine: {'line': b'compilation terminated.\n'}
+[6.922276] (proj_spec) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[6.922374] (proj_spec) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2\n'}
+[6.922468] (proj_spec) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.923566] (proj_spec) CommandEnded: {'returncode': 2}
+[7.012802] (-) TimerEvent: {}
+[7.099057] (proj_spec) JobEnded: {'identifier': 'proj_spec', 'rc': 2}
+[7.109313] (-) EventReactorShutdown: {}

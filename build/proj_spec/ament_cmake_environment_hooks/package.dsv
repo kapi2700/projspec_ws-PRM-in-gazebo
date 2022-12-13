@@ -1,0 +1,4 @@
+source;share/proj_spec/local_setup.bash
+source;share/proj_spec/local_setup.dsv
+source;share/proj_spec/local_setup.sh
+source;share/proj_spec/local_setup.zsh

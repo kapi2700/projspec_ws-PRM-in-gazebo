@@ -1,0 +1,20 @@
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:38:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kdrive[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   38 |   [01;31m[Kdrive[m[K(double lx, double az)
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kint Robot::drive(double, double)[m[K’:
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:45:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   45 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:56:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Robot[m[K’ has no member named ‘[01m[Kinit[m[K’
+   56 |   R.[01;31m[Kinit[m[K(argc, argv);
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:57:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KR[m[K’
+   57 |   R.drive(1,1)
+      |               [01;31m[K^[m[K
+      |               [32m[K;[m[K
+   58 |   [32m[KR[m[K.shutdown();
+      |   [32m[K~[m[K            
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

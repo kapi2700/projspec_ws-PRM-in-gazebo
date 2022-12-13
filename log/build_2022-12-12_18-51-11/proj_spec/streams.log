@@ -1,0 +1,389 @@
+[0.131s] Invoking command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16
+[0.150s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.171s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.385s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:26:17:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ is not a namespace-name
+[1.385s]    26 | using namespace [01;31m[KEigen[m[K;
+[1.385s]       |                 [01;31m[K^~~~~[m[K
+[1.407s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KRobotSteering::RobotSteering()[m[K’:
+[1.408s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:38:93:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+[1.408s]    38 | ue/odometry", 10, std::bind(&RobotSteering::topic_callback, this, [01;31m[K_1[m[K));
+[1.408s]       |                                                                   [01;31m[K^~[m[K
+[1.408s]       |                                                                   [32m[Kstd::placeholders::_1[m[K
+[1.408s] In file included from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:16[m[K:
+[1.408s] [01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+[1.408s]   225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+[1.408s]       |                                  [01;36m[K^~[m[K
+[1.414s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid RobotSteering::topic_callback(const Odometry&) const[m[K’:
+[1.414s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:50:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _pose_type[m[K’ {aka ‘[01m[Kconst struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+[1.414s]    50 |     float x=msg.pose.[01;31m[Kposition[m[K.x;
+[1.414s]       |                      [01;31m[K^~~~~~~~[m[K
+[1.414s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:51:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _pose_type[m[K’ {aka ‘[01m[Kconst struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+[1.414s]    51 |     float y=msg.pose.[01;31m[Kposition[m[K.y;
+[1.414s]       |                      [01;31m[K^~~~~~~~[m[K
+[1.414s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:52:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _pose_type[m[K’ {aka ‘[01m[Kconst struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korientation[m[K’
+[1.414s]    52 |     float zRot=msg.pose.[01;31m[Korientation[m[K.getAngle();
+[1.414s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[1.414s] In file included from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.414s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.415s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.415s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.415s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.415s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.415s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.415s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.415s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.415s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.415s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.415s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:20[m[K:
+[1.415s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:53:51:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+[m[K’ (operand type is ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’})
+[1.415s]    53 |     RCLCPP_INFO(this->get_logger(), "I heard: %s",[01;31m[K+std::to_string(zRot)[m[K);
+[1.415s]       |                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.415s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[1.415s]                  from [01m[K/usr/include/c++/11/array:40[m[K,
+[1.415s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[1.415s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[1.415s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:16[m[K:
+[1.415s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1242:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator, class _Container> __gnu_cxx::__normal_iterator<_Iterator, _Container> __gnu_cxx::operator+(typename __gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)[m[K’
+[1.415s]  1242 |     [01;36m[Koperator[m[K+(typename __normal_iterator<_Iterator, _Container>::difference_type
+[1.415s]       |     [01;36m[K^~~~~~~~[m[K
+[1.415s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1242:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.432s] In file included from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.433s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.433s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.433s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.433s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.433s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.433s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.433s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.433s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.433s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.433s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.433s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:20[m[K:
+[1.434s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:53:71:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.434s]    53 |   RCLCPP_INFO(this->get_logger(), "I heard: %s",+std::to_string(zRot[01;36m[K)[m[K);
+[1.434s]       |                                                                     [01;36m[K^[m[K
+[1.434s] 
+[1.434s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[1.434s]                  from [01m[K/usr/include/c++/11/array:40[m[K,
+[1.434s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[1.434s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[1.434s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:16[m[K:
+[1.434s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:568:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr std::reverse_iterator<_Iterator> std::operator+(typename std::reverse_iterator<_Iterator>::difference_type, const std::reverse_iterator<_Iterator>&)[m[K’
+[1.434s]   568 |     [01;36m[Koperator[m[K+(typename reverse_iterator<_Iterator>::difference_type __n,
+[1.434s]       |     [01;36m[K^~~~~~~~[m[K
+[1.434s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:568:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.434s] In file included from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.434s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.434s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.434s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.434s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.434s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.434s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.434s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.434s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.434s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.434s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.434s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:20[m[K:
+[1.434s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:53:71:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.434s]    53 |   RCLCPP_INFO(this->get_logger(), "I heard: %s",+std::to_string(zRot[01;36m[K)[m[K);
+[1.434s]       |                                                                     [01;36m[K^[m[K
+[1.434s] 
+[1.434s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[1.434s]                  from [01m[K/usr/include/c++/11/array:40[m[K,
+[1.434s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[1.434s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[1.434s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:16[m[K:
+[1.434s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1646:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr std::move_iterator<_IteratorL> std::operator+(typename std::move_iterator<_IteratorL>::difference_type, const std::move_iterator<_IteratorL>&)[m[K’
+[1.434s]  1646 |     [01;36m[Koperator[m[K+(typename move_iterator<_Iterator>::difference_type __n,
+[1.434s]       |     [01;36m[K^~~~~~~~[m[K
+[1.435s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1646:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.435s] In file included from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.435s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.435s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.435s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.435s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.435s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.435s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.435s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.435s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.435s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.435s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.435s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:20[m[K:
+[1.435s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:53:71:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.435s]    53 |   RCLCPP_INFO(this->get_logger(), "I heard: %s",+std::to_string(zRot[01;36m[K)[m[K);
+[1.435s]       |                                                                     [01;36m[K^[m[K
+[1.435s] 
+[1.435s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.435s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:18[m[K:
+[1.435s] [01m[K/usr/include/c++/11/bits/basic_string.h:6095:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[1.435s]  6095 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[1.435s]       |     [01;36m[K^~~~~~~~[m[K
+[1.435s] [01m[K/usr/include/c++/11/bits/basic_string.h:6095:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.435s] In file included from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.435s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.435s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.435s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.435s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.435s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.435s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.435s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.435s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.435s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.435s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.435s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:20[m[K:
+[1.435s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:53:71:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.435s]    53 |   RCLCPP_INFO(this->get_logger(), "I heard: %s",+std::to_string(zRot[01;36m[K)[m[K);
+[1.435s]       |                                                                     [01;36m[K^[m[K
+[1.436s] 
+[1.436s] In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+[1.436s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:18[m[K:
+[1.436s] [01m[K/usr/include/c++/11/bits/basic_string.tcc:1169:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[1.436s]  1169 |     [01;36m[Koperator[m[K+(const _CharT* __lhs,
+[1.436s]       |     [01;36m[K^~~~~~~~[m[K
+[1.436s] [01m[K/usr/include/c++/11/bits/basic_string.tcc:1169:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.436s] In file included from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.436s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.436s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.436s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.436s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.436s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.436s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.436s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.436s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.436s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.436s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.436s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:20[m[K:
+[1.436s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:53:71:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’
+[1.436s]    53 |   RCLCPP_INFO(this->get_logger(), "I heard: %s",+std::to_string(zRot[01;36m[K)[m[K);
+[1.436s]       |                                                                     [01;36m[K^[m[K
+[1.436s] 
+[1.436s] In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+[1.436s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:18[m[K:
+[1.436s] [01m[K/usr/include/c++/11/bits/basic_string.tcc:1189:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[1.436s]  1189 |     [01;36m[Koperator[m[K+(_CharT __lhs, const basic_string<_CharT, _Traits, _Alloc>& __rhs)
+[1.436s]       |     [01;36m[K^~~~~~~~[m[K
+[1.436s] [01m[K/usr/include/c++/11/bits/basic_string.tcc:1189:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.436s] In file included from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.436s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.436s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.436s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.436s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.436s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.436s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.437s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.437s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.437s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.437s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.437s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:20[m[K:
+[1.437s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:53:71:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.437s]    53 |   RCLCPP_INFO(this->get_logger(), "I heard: %s",+std::to_string(zRot[01;36m[K)[m[K);
+[1.437s]       |                                                                     [01;36m[K^[m[K
+[1.437s] 
+[1.437s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.437s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:18[m[K:
+[1.437s] [01m[K/usr/include/c++/11/bits/basic_string.h:6132:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)[m[K’
+[1.437s]  6132 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[1.437s]       |     [01;36m[K^~~~~~~~[m[K
+[1.437s] [01m[K/usr/include/c++/11/bits/basic_string.h:6132:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.437s] In file included from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.437s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.437s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.437s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.437s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.437s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.437s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.437s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.437s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.437s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.437s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.437s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:20[m[K:
+[1.437s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:53:71:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.437s]    53 |   RCLCPP_INFO(this->get_logger(), "I heard: %s",+std::to_string(zRot[01;36m[K)[m[K);
+[1.437s]       |                                                                     [01;36m[K^[m[K
+[1.437s] 
+[1.437s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.437s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:18[m[K:
+[1.437s] [01m[K/usr/include/c++/11/bits/basic_string.h:6148:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)[m[K’
+[1.438s]  6148 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)
+[1.438s]       |     [01;36m[K^~~~~~~~[m[K
+[1.438s] [01m[K/usr/include/c++/11/bits/basic_string.h:6148:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.438s] In file included from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.438s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.438s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.438s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.438s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.438s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.438s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.438s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.438s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.438s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.438s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.438s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:20[m[K:
+[1.438s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:53:71:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.438s]    53 |   RCLCPP_INFO(this->get_logger(), "I heard: %s",+std::to_string(zRot[01;36m[K)[m[K);
+[1.438s]       |                                                                     [01;36m[K^[m[K
+[1.438s] 
+[1.438s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.438s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:18[m[K:
+[1.438s] [01m[K/usr/include/c++/11/bits/basic_string.h:6160:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[1.438s]  6160 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+[1.438s]       |     [01;36m[K^~~~~~~~[m[K
+[1.438s] [01m[K/usr/include/c++/11/bits/basic_string.h:6160:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.438s] In file included from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.438s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.438s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.438s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.438s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.438s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.438s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.438s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.439s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.439s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.439s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.439s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:20[m[K:
+[1.439s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:53:71:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.439s]    53 |   RCLCPP_INFO(this->get_logger(), "I heard: %s",+std::to_string(zRot[01;36m[K)[m[K);
+[1.439s]       |                                                                     [01;36m[K^[m[K
+[1.439s] 
+[1.439s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.439s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:18[m[K:
+[1.439s] [01m[K/usr/include/c++/11/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+[1.439s]  6166 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[1.439s]       |     [01;36m[K^~~~~~~~[m[K
+[1.439s] [01m[K/usr/include/c++/11/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.439s] In file included from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.439s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.439s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.439s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.439s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.439s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.439s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.439s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.439s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.439s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.439s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.439s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:20[m[K:
+[1.439s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:53:71:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.439s]    53 |   RCLCPP_INFO(this->get_logger(), "I heard: %s",+std::to_string(zRot[01;36m[K)[m[K);
+[1.439s]       |                                                                     [01;36m[K^[m[K
+[1.440s] 
+[1.440s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.440s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:18[m[K:
+[1.440s] [01m[K/usr/include/c++/11/bits/basic_string.h:6172:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+[1.440s]  6172 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+[1.440s]       |     [01;36m[K^~~~~~~~[m[K
+[1.440s] [01m[K/usr/include/c++/11/bits/basic_string.h:6172:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.440s] In file included from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.440s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.440s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.440s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.440s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.440s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.440s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.440s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.440s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.440s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.440s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.440s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:20[m[K:
+[1.440s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:53:71:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.440s]    53 |   RCLCPP_INFO(this->get_logger(), "I heard: %s",+std::to_string(zRot[01;36m[K)[m[K);
+[1.440s]       |                                                                     [01;36m[K^[m[K
+[1.440s] 
+[1.440s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.440s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:18[m[K:
+[1.440s] [01m[K/usr/include/c++/11/bits/basic_string.h:6194:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+[1.440s]  6194 |     [01;36m[Koperator[m[K+(const _CharT* __lhs,
+[1.440s]       |     [01;36m[K^~~~~~~~[m[K
+[1.440s] [01m[K/usr/include/c++/11/bits/basic_string.h:6194:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.440s] In file included from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.440s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.441s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.441s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.441s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.441s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.441s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.441s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.441s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.441s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.441s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.441s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:20[m[K:
+[1.441s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:53:71:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’
+[1.441s]    53 |   RCLCPP_INFO(this->get_logger(), "I heard: %s",+std::to_string(zRot[01;36m[K)[m[K);
+[1.441s]       |                                                                     [01;36m[K^[m[K
+[1.441s] 
+[1.441s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.441s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:18[m[K:
+[1.441s] [01m[K/usr/include/c++/11/bits/basic_string.h:6200:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+[1.441s]  6200 |     [01;36m[Koperator[m[K+(_CharT __lhs,
+[1.441s]       |     [01;36m[K^~~~~~~~[m[K
+[1.441s] [01m[K/usr/include/c++/11/bits/basic_string.h:6200:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.441s] In file included from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.441s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.441s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.441s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.441s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.441s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.441s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.441s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.441s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.441s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.441s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.441s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:20[m[K:
+[1.441s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:53:71:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.441s]    53 |   RCLCPP_INFO(this->get_logger(), "I heard: %s",+std::to_string(zRot[01;36m[K)[m[K);
+[1.441s]       |                                                                     [01;36m[K^[m[K
+[1.441s] 
+[1.442s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.442s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:18[m[K:
+[1.442s] [01m[K/usr/include/c++/11/bits/basic_string.h:6206:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const _CharT*)[m[K’
+[1.442s]  6206 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+[1.442s]       |     [01;36m[K^~~~~~~~[m[K
+[1.442s] [01m[K/usr/include/c++/11/bits/basic_string.h:6206:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.442s] In file included from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.442s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.442s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.442s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.442s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.442s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.442s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.442s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.442s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.442s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.442s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.442s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:20[m[K:
+[1.442s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:53:71:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.442s]    53 |   RCLCPP_INFO(this->get_logger(), "I heard: %s",+std::to_string(zRot[01;36m[K)[m[K);
+[1.442s]       |                                                                     [01;36m[K^[m[K
+[1.442s] 
+[1.442s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[1.442s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:18[m[K:
+[1.442s] [01m[K/usr/include/c++/11/bits/basic_string.h:6212:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, _CharT)[m[K’
+[1.442s]  6212 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+[1.442s]       |     [01;36m[K^~~~~~~~[m[K
+[1.442s] [01m[K/usr/include/c++/11/bits/basic_string.h:6212:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.442s] In file included from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.442s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.442s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.442s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.442s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.442s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.442s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.442s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.442s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.443s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.443s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.443s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:20[m[K:
+[1.443s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:53:71:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.443s]    53 |   RCLCPP_INFO(this->get_logger(), "I heard: %s",+std::to_string(zRot[01;36m[K)[m[K);
+[1.443s]       |                                                                     [01;36m[K^[m[K
+[1.443s] 
+[1.443s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:50:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.443s]    50 |     float [01;35m[Kx[m[K=msg.pose.position.x;
+[1.443s]       |           [01;35m[K^[m[K
+[1.443s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:51:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.443s]    51 |     float [01;35m[Ky[m[K=msg.pose.position.y;
+[1.443s]       |           [01;35m[K^[m[K
+[1.896s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[1.896s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+[1.897s] gmake: *** [Makefile:146: all] Error 2
+[1.898s] Invoked command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16

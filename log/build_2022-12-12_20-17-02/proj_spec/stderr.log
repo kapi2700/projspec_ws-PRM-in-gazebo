@@ -1,0 +1,8 @@
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid RobotSteering::topic_callback(const Odometry&) const[m[K’:
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:73:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kctan[m[K’ was not declared in this scope; did you mean ‘[01m[Ktan[m[K’?
+   73 |     float targetzRot = [01;31m[Kctan[m[K(xdiff / ydiff);
+      |                        [01;31m[K^~~~[m[K
+      |                        [32m[Ktan[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

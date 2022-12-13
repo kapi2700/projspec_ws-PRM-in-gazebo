@@ -1,0 +1,123 @@
+In file included from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:21[m[K:
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:181:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  181 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Current:    x: %s, y:    %s", std::to_string(x).c_str(), std::to_string(y).c_str());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:181:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  181 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Current:    x: %s, y:    %s", std::to_string(x).c_str(), std::to_string(y).c_str());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:182:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  182 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Expected:   x: %s, y:    %s", std::to_string(targetX).c_str(), std::to_string(targetY).c_str());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:182:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  182 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Expected:   x: %s, y:    %s", std::to_string(targetX).c_str(), std::to_string(targetY).c_str());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:183:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  183 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Calculated: x: %s, zRot: %s", std::to_string(calculatedX).c_str(), std::to_string(calculatedZ).c_str());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:183:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  183 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Calculated: x: %s, zRot: %s", std::to_string(calculatedX).c_str(), std::to_string(calculatedZ).c_str());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:184:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  184 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Sent:       x: %s, zRot: %s", std::to_string(xToDrive).c_str(), std::to_string(zToRotate).c_str());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:184:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  184 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Sent:       x: %s, zRot: %s", std::to_string(xToDrive).c_str(), std::to_string(zToRotate).c_str());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:185:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+  185 |   }
+      |    [01;31m[K^[m[K
+      |    [32m[K;[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KRobotSteering::RobotSteering()[m[K’:
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:50:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   50 |     [01;31m[Ksubscription_[m[K = this->create_subscription<nav_msgs::msg::Odometry>(
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_subscription_t[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:53:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   53 |     [01;31m[Kpublisher_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("/model/vehicle_blue/cmd_vel", 10);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:54:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   54 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ktimer_t[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:55:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KRobotSteering[m[K’
+   55 |         20ms, std::bind(&RobotSteering::[01;31m[Ktimer_callback[m[K, this));
+      |                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid RobotSteering::topic_callback(const Odometry&) const[m[K’:
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:88:17:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+   88 |       if([01;35m[KgoodPos=true[m[K)
+      |          [01;35m[K~~~~~~~^~~~~[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:114:15:[m[K [01;31m[Kerror: [m[K‘[01m[KgoodRot[m[K’ was not declared in this scope; did you mean ‘[01m[KgoodPos[m[K’?
+  114 |       else if([01;31m[KgoodRot[m[K&&!goodPos)
+      |               [01;31m[K^~~~~~~[m[K
+      |               [32m[KgoodPos[m[K
+In file included from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:21[m[K:
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kvoid Drive(float, float)[m[K’:
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:191:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  191 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Publishing: Done\n");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:191:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:191:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  191 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: Done\n");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:191:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  191 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: Done\n");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:191:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  191 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: Done\n");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:191:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  191 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: Done\n");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:191:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  191 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: Done\n");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:21[m[K:
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:191:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  191 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Publishing: Done\n");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:191:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  191 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Publishing: Done\n");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:192:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+  192 |     [01;31m[Kpublisher_[m[K->publish(message);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K At global scope:
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:205:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  205 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

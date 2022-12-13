@@ -1,0 +1,11 @@
+[0.010s] Invoking command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16
+[0.029s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.039s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.078s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:19:10:[m[K [01;31m[Kfatal error: [m[KEigen/Geometry: No such file or directory
+[0.078s]    19 | #include [01;31m[K<Eigen/Geometry>[m[K
+[0.078s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.078s] compilation terminated.
+[0.086s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[0.086s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+[0.086s] gmake: *** [Makefile:146: all] Error 2
+[0.087s] Invoked command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16
