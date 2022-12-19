@@ -1,0 +1,10 @@
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid RobotSteering::topic_callback(const Odometry&) const[m[K’:
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:171:14:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst RobotSteering[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  171 |         [01;31m[KDrive(0,0)[m[K;
+      |         [01;31m[K~~~~~^~~~~[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:194:8:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kvoid RobotSteering::Drive(float, float)[m[K’
+  194 |   void [01;36m[KDrive[m[K(float x, float z)
+      |        [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

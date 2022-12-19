@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid RobotSteering::topic_callback_pose(const TFMessage&) const[m[K’:
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:215:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst TFMessage[m[K’ {aka ‘[01m[Kconst struct tf2_msgs::msg::TFMessage_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktransform[m[K’; did you mean ‘[01m[Ktransforms[m[K’?
+  215 |     geometry_msgs::msg::TransformStamped transform=msg.[01;31m[Ktransform[m[K[3];
+      |                                                        [01;31m[K^~~~~~~~~[m[K
+      |                                                        [32m[Ktransforms[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

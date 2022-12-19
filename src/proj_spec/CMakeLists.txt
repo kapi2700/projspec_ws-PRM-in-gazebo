@@ -13,9 +13,10 @@ find_package(std_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(tf2 REQUIRED)
+find_package(tf2_msgs REQUIRED)
 
 add_executable(talker src/publisher_member_function.cpp)
-ament_target_dependencies(talker rclcpp std_msgs nav_msgs geometry_msgs tf2) 
+ament_target_dependencies(talker rclcpp std_msgs nav_msgs geometry_msgs tf2 tf2_msgs) 
 
 install(TARGETS
   talker

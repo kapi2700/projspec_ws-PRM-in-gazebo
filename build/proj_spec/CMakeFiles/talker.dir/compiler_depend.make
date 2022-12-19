@@ -707,8 +707,24 @@ CMakeFiles/talker.dir/src/publisher_member_function.cpp.o: /home/kacper/Document
   /opt/ros/rolling/include/tf2/tf2/visibility_control.h \
   /opt/ros/rolling/include/tf2/tf2/LinearMath/QuadWord.h \
   /opt/ros/rolling/include/tf2/tf2/LinearMath/Matrix3x3.h \
-  /opt/ros/rolling/include/tf2/tf2/LinearMath/Quaternion.h
+  /opt/ros/rolling/include/tf2/tf2/LinearMath/Quaternion.h \
+  /opt/ros/rolling/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp \
+  /opt/ros/rolling/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.hpp \
+  /opt/ros/rolling/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
+  /opt/ros/rolling/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
+  /opt/ros/rolling/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__builder.hpp \
+  /opt/ros/rolling/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp \
+  /opt/ros/rolling/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp \
+  /opt/ros/rolling/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp
 
+
+/opt/ros/rolling/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp:
+
+/opt/ros/rolling/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp:
+
+/opt/ros/rolling/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp:
+
+/opt/ros/rolling/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp:
 
 /opt/ros/rolling/include/tf2/tf2/LinearMath/QuadWord.h:
 
@@ -1009,6 +1025,8 @@ CMakeFiles/talker.dir/src/publisher_member_function.cpp.o: /home/kacper/Document
 /usr/include/c++/11/bits/node_handle.h:
 
 /usr/include/c++/11/bits/ios_base.h:
+
+/opt/ros/rolling/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__builder.hpp:
 
 /opt/ros/rolling/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
 
@@ -1388,6 +1406,8 @@ CMakeFiles/talker.dir/src/publisher_member_function.cpp.o: /home/kacper/Document
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
+/opt/ros/rolling/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.hpp:
+
 /usr/include/c++/11/bits/move.h:
 
 /usr/include/c++/11/bits/hash_bytes.h:
@@ -1609,6 +1629,8 @@ CMakeFiles/talker.dir/src/publisher_member_function.cpp.o: /home/kacper/Document
 /opt/ros/rolling/include/rclcpp/rclcpp/subscription_content_filter_options.hpp:
 
 /opt/ros/rolling/include/rcl/rcl/log_level.h:
+
+/opt/ros/rolling/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
@@ -2115,5 +2137,7 @@ CMakeFiles/talker.dir/src/publisher_member_function.cpp.o: /home/kacper/Document
 /opt/ros/rolling/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:
 
 /opt/ros/rolling/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:
+
+/opt/ros/rolling/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp:
 
 /usr/include/c++/11/numeric:

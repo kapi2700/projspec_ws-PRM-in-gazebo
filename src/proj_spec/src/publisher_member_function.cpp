@@ -25,6 +25,7 @@
 #include "geometry_msgs/msg/twist.hpp"
 #include "tf2/LinearMath/Quaternion.h"
 #include "tf2/LinearMath/Matrix3x3.h"
+#include "tf2_msgs/msg/tf_message.hpp"
 
 using namespace std::chrono_literals;
 using std::placeholders::_1;
@@ -60,8 +61,11 @@ public:
   RobotSteering()
       : Node("RobotSteering")
   {
-    subscription_ = this->create_subscription<nav_msgs::msg::Odometry>(
-        "/model/vehicle_blue/odometry", 10, std::bind(&RobotSteering::topic_callback, this, _1));
+    // subscription_ = this->create_subscription<nav_msgs::msg::Odometry>(
+    //     "/model/vehicle_blue/odometry", 10, std::bind(&RobotSteering::topic_callback, this, _1));
+    
+    subscription2_ = this->create_subscription<tf2_msgs::msg::TFMessage>(
+        "/world/testwrld/dynamic_pose/info", 10, std::bind(&RobotSteering::topic_callback_pose, this, _1));
 
     publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("/model/vehicle_blue/cmd_vel", 10);
     timer_ = this->create_wall_timer(
@@ -116,15 +120,15 @@ private:
         else
         {
           if (abs(zToRotate) < 0.1)
-            zSpeed = zToRotate;
+            zSpeed = zToRotate*2;
           else
             if(zToRotate>0)
             {
-              zSpeed = 0.1;
+              zSpeed = zToRotate*2;
             }
             else
             {
-              zSpeed =-0.1;
+              zSpeed = zToRotate*2;
             }
         }
       }
@@ -147,11 +151,11 @@ private:
           {
             if (xToDrive < 0.2)
             {
-              xSpeed = xToDrive / 2;
+              xSpeed = xToDrive*2;
             }
             else
             {
-              xSpeed = 0.1;
+              xSpeed = xToDrive*2;
             }
           }
         }
@@ -161,60 +165,28 @@ private:
     {
       xSpeed = 0;
       zSpeed = 0;
-      targetX = path[i][0];
-      targetY = path[i][1];
+      // targetX = path[i][0];
+      // targetY = path[i][1];
       i++;
+      if(i>maxi)
+      {
+        xSpeed = 0;
+        zSpeed = 0;
+        targetX=10;
+        targetY =10;
+      }
+      else
+      {
+        targetX = path[i-1][0];
+        targetY = path[i-1][1];
+      }
       if (distance > 0.1)
       {
         goodRot = false;
         goodPos = false;
       }
     }
-    // if (movements < 20)
-    // {
-    //   zToRotate = 0;
-    //   xToDrive = 0.1;
-    //   if(xToDrive<0.1)
-    //   {
-    //     xToDrive=xToDrive/20;
-    //   }
 
-    //   if (xToDrive < 0.01)
-    //   {
-    //     xToDrive = 0;
-    //   }
-    // }
-    // else
-    // {
-    //   zToRotate = calculatedZ;
-    //   if (zToRotate < 0.0005 && zToRotate > -0.0005)
-    //   {
-    //     zToRotate = 0;
-    //     xToDrive = 0.1;
-    //     movements=0;
-    //     if (xToDrive < 0.01)
-    //     {
-    //       xToDrive = 0;
-    //     }
-    //   }
-    //   else
-    //   {
-    //     xToDrive = 0;
-    //     if (zToRotate > 0)
-    //       if (zToRotate > 0.5)
-    //         zToRotate = 0.5;
-    //       else
-    //         zToRotate = zToRotate / 2;
-    //     else if (zToRotate < -0.5)
-    //       zToRotate = -0.5;
-    //     else
-    //       zToRotate = zToRotate / 2;
-    //   }
-    // else
-    // {
-    //   zToRotate = 0;
-    //   xToDrive = 0;
-    // }
     RCLCPP_INFO(this->get_logger(), "Going to Node: %s out of %s", std::to_string(i).c_str(), std::to_string(maxi).c_str());
     RCLCPP_INFO(this->get_logger(), "Current:    x: %s, y:    %s", std::to_string(x).c_str(), std::to_string(y).c_str());
     RCLCPP_INFO(this->get_logger(), "Expected:   x: %s, y:    %s", std::to_string(targetX).c_str(), std::to_string(targetY).c_str());
@@ -226,7 +198,7 @@ private:
     geometry_msgs::msg::Twist message;
     message.linear.x = x;
     message.angular.z = z;
-    RCLCPP_INFO(this->get_logger(), "Publishing: Done\n");
+    //RCLCPP_INFO(this->get_logger(), "Publishing: Done\n");
     publisher_->publish(message);
   }
   void timer_callback()
@@ -237,9 +209,133 @@ private:
       movements++;
     }
   }
+
+  void topic_callback_pose(const tf2_msgs::msg::TFMessage &msg) const
+  {
+    geometry_msgs::msg::TransformStamped transform=msg.transforms[0];
+    tf2::Quaternion q(
+        transform.transform.rotation.x,
+        transform.transform.rotation.y,
+        transform.transform.rotation.z,
+        transform.transform.rotation.w);
+    tf2::Matrix3x3 m(q);
+    double roll, pitch, yaw;
+    m.getRPY(roll, pitch, yaw);
+    float x = transform.transform.translation.x;
+    float y = transform.transform.translation.y;
+    float zRot = yaw;
+    float xdiff = targetX - x;
+    float ydiff = targetY - y;
+    // if (ydiff == 0)
+    // {
+    //   ydiff = 0;
+    // }
+    float calculatedX = 0;
+    float calculatedZ = 0;
+    float targetzRot = atan(ydiff / xdiff);
+    float distance = sqrt((targetX - x) * (targetX - x) + (targetY - y) * (targetY - y));
+    calculatedZ = (targetzRot-zRot);
+    calculatedX = distance;
+
+    zToRotate = calculatedZ;
+    xToDrive = calculatedX;
+
+    if (distance > 0.01)
+    {
+      if (goodPos)
+      {
+        xSpeed = 0.0;
+        zSpeed = 0.0;
+      }
+      else if (!goodRot)
+      {
+        xSpeed = 0.0;
+        if (abs(zToRotate) < 0.0001)
+        {
+          zSpeed = 0.0;
+          goodRot = true;
+        }
+        else
+        {
+          if (abs(zToRotate) < 0.1)
+            zSpeed = zToRotate*2;
+          else
+            if(zToRotate>0)
+            {
+              zSpeed = zToRotate*2;
+            }
+            else
+            {
+              zSpeed = zToRotate*2;
+            }
+        }
+      }
+      else if (goodRot && !goodPos)
+      {
+        zSpeed = 0.0;
+        if (xToDrive < 0.001)
+        {
+          xSpeed = 0.0;
+          goodPos = true;
+        }
+        else
+        {
+          if (abs(zToRotate) > 0.1)
+          {
+            goodRot = false;
+            goodPos = false;
+          }
+          else
+          {
+            if (xToDrive < 0.2)
+            {
+              xSpeed = xToDrive/4;
+            }
+            else
+            {
+              xSpeed = xToDrive/4;
+            }
+          }
+        }
+      }
+    }
+    else
+    {
+      xSpeed = 0;
+      zSpeed = 0;
+      // targetX = path[i][0];
+      // targetY = path[i][1];
+      i++;
+      if(i>maxi)
+      {
+        xSpeed = 0;
+        zSpeed = 0;
+        targetX=10;
+        targetY =10;
+      }
+      else
+      {
+        targetX = path[i-1][0];
+        targetY = path[i-1][1];
+      }
+      if (distance > 0.1)
+      {
+        goodRot = false;
+        goodPos = false;
+      }
+    }
+
+    RCLCPP_INFO(this->get_logger(), "Going to Node: %s out of %s", std::to_string(i).c_str(), std::to_string(maxi).c_str());
+    RCLCPP_INFO(this->get_logger(), "Current:    x: %s, y:    %s", std::to_string(x).c_str(), std::to_string(y).c_str());
+    RCLCPP_INFO(this->get_logger(), "Expected:   x: %s, y:    %s", std::to_string(targetX).c_str(), std::to_string(targetY).c_str());
+    RCLCPP_INFO(this->get_logger(), "Calculated: x: %s, zRot: %s", std::to_string(calculatedX).c_str(), std::to_string(calculatedZ).c_str());
+    RCLCPP_INFO(this->get_logger(), "Sent:       x: %s, zRot: %s", std::to_string(xSpeed).c_str(), std::to_string(zSpeed).c_str());
+  }
+  
   rclcpp::TimerBase::SharedPtr timer_;
   rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
   rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr subscription_;
+  rclcpp::Subscription<tf2_msgs::msg::TFMessage>::SharedPtr subscription2_;
 };
 
 int main(int argc, char *argv[])
