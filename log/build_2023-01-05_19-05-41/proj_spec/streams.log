@@ -1,0 +1,120 @@
+[0.010s] Invoking command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16
+[0.165s] -- Found ament_cmake: 1.5.2 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.583s] -- Found rclcpp: 17.1.0 (/opt/ros/rolling/share/rclcpp/cmake)
+[0.691s] -- Found rosidl_generator_c: 3.3.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.712s] -- Found rosidl_generator_cpp: 3.3.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.743s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.816s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.970s] -- Found rmw_implementation_cmake: 6.4.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[0.991s] -- Found rmw_fastrtps_cpp: 6.5.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[1.272s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.509s] -- Found std_msgs: 4.6.1 (/opt/ros/rolling/share/std_msgs/cmake)
+[1.544s] -- Found nav_msgs: 4.6.1 (/opt/ros/rolling/share/nav_msgs/cmake)
+[1.657s] -- Found tf2: 0.28.0 (/opt/ros/rolling/share/tf2/cmake)
+[1.675s] -- Found tf2_msgs: 0.28.0 (/opt/ros/rolling/share/tf2_msgs/cmake)
+[1.778s] -- Found ament_lint_auto: 0.13.2 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[2.081s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.081s] -- Configured cppcheck include dirs: 
+[2.081s] -- Configured cppcheck exclude dirs and/or files: 
+[2.082s] -- Added test 'lint_cmake' to check CMake code style
+[2.083s] -- Added test 'uncrustify' to check C / C++ code style
+[2.083s] -- Configured uncrustify additional arguments: 
+[2.083s] -- Added test 'xmllint' to check XML markup files
+[2.084s] -- Configuring done
+[2.175s] -- Generating done
+[2.180s] -- Build files have been written to: /home/kacper/Documents/projspec/projspec_ws/build/proj_spec
+[2.199s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[2.221s] [ 57%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[2.221s] [ 57%] [32mBuilding CXX object CMakeFiles/talker.dir/src/obstacle.cpp.o[0m
+[2.222s] [ 57%] [32mBuilding CXX object CMakeFiles/talker.dir/src/cirObstacle.cpp.o[0m
+[2.222s] [ 57%] [32mBuilding CXX object CMakeFiles/talker.dir/src/nodes.cpp.o[0m
+[2.222s] [ 71%] [32mBuilding CXX object CMakeFiles/talker.dir/src/recObstacle.cpp.o[0m
+[2.225s] [ 85%] [32mBuilding CXX object CMakeFiles/talker.dir/src/world.cpp.o[0m
+[2.226s] In file included from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.cpp:1[m[K:
+[2.227s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:[m[K In member function ‘[01m[Kvirtual bool obstacle::checkCollision(float, float)[m[K’:
+[2.227s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:9:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.227s]     9 |     bool virtual checkCollision([01;35m[Kfloat x[m[K, float y)
+[2.227s]       |                                 [01;35m[K~~~~~~^[m[K
+[2.227s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:9:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.227s]     9 |     bool virtual checkCollision(float x, [01;35m[Kfloat y[m[K)
+[2.227s]       |                                          [01;35m[K~~~~~~^[m[K
+[2.227s] In file included from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/recObstacle.hh:1[m[K,
+[2.227s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/recObstacle.cpp:1[m[K:
+[2.227s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:[m[K In member function ‘[01m[Kvirtual bool obstacle::checkCollision(float, float)[m[K’:
+[2.227s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:9:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.227s]     9 |     bool virtual checkCollision([01;35m[Kfloat x[m[K, float y)
+[2.227s]       |                                 [01;35m[K~~~~~~^[m[K
+[2.227s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:9:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.227s]     9 |     bool virtual checkCollision(float x, [01;35m[Kfloat y[m[K)
+[2.227s]       |                                          [01;35m[K~~~~~~^[m[K
+[2.228s] In file included from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/cirObstacle.hh:2[m[K,
+[2.228s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/cirObstacle.cpp:1[m[K:
+[2.228s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:[m[K In member function ‘[01m[Kvirtual bool obstacle::checkCollision(float, float)[m[K’:
+[2.228s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:9:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.228s]     9 |     bool virtual checkCollision([01;35m[Kfloat x[m[K, float y)
+[2.228s]       |                                 [01;35m[K~~~~~~^[m[K
+[2.228s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:9:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.228s]     9 |     bool virtual checkCollision(float x, [01;35m[Kfloat y[m[K)
+[2.228s]       |                                          [01;35m[K~~~~~~^[m[K
+[2.355s] In file included from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/recObstacle.hh:1[m[K,
+[2.356s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/world.hh:4[m[K,
+[2.356s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/world.cpp:1[m[K:
+[2.356s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:[m[K In member function ‘[01m[Kvirtual bool obstacle::checkCollision(float, float)[m[K’:
+[2.356s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:9:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.356s]     9 |     bool virtual checkCollision([01;35m[Kfloat x[m[K, float y)
+[2.356s]       |                                 [01;35m[K~~~~~~^[m[K
+[2.356s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:9:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.356s]     9 |     bool virtual checkCollision(float x, [01;35m[Kfloat y[m[K)
+[2.356s]       |                                          [01;35m[K~~~~~~^[m[K
+[2.418s] In file included from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/recObstacle.hh:1[m[K,
+[2.419s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/world.hh:4[m[K,
+[2.419s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.hh:3[m[K,
+[2.419s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.cpp:1[m[K:
+[2.419s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:[m[K In member function ‘[01m[Kvirtual bool obstacle::checkCollision(float, float)[m[K’:
+[2.419s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:9:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.419s]     9 |     bool virtual checkCollision([01;35m[Kfloat x[m[K, float y)
+[2.419s]       |                                 [01;35m[K~~~~~~^[m[K
+[2.419s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:9:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.419s]     9 |     bool virtual checkCollision(float x, [01;35m[Kfloat y[m[K)
+[2.419s]       |                                          [01;35m[K~~~~~~^[m[K
+[2.537s] In file included from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/recObstacle.hh:1[m[K,
+[2.537s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/world.hh:4[m[K,
+[2.537s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.hh:3[m[K,
+[2.537s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:24[m[K:
+[2.537s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:[m[K In member function ‘[01m[Kvirtual bool obstacle::checkCollision(float, float)[m[K’:
+[2.537s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:9:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.537s]     9 |     bool virtual checkCollision([01;35m[Kfloat x[m[K, float y)
+[2.537s]       |                                 [01;35m[K~~~~~~^[m[K
+[2.537s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:9:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.537s]     9 |     bool virtual checkCollision(float x, [01;35m[Kfloat y[m[K)
+[2.537s]       |                                          [01;35m[K~~~~~~^[m[K
+[2.791s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.cpp:[m[K In member function ‘[01m[Kvoid nodes::findDistance()[m[K’:
+[2.791s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.cpp:76:19:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kadj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[2.791s]    76 |     vector<iPair> [01;35m[Kadj[m[K[V];
+[2.791s]       |                   [01;35m[K^~~[m[K
+[2.796s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.cpp:88:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.796s]    88 |     for(int i=0;[01;35m[Ki<path.size()[m[K;i++)
+[2.796s]       |                 [01;35m[K~^~~~~~~~~~~~[m[K
+[7.234s] [100%] [32m[1mLinking CXX executable talker[0m
+[7.478s] [100%] Built target talker
+[7.483s] Invoked command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16
+[7.499s] Invoking command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/kacper/Documents/projspec/projspec_ws/build/proj_spec
+[7.502s] -- Install configuration: ""
+[7.502s] -- Installing: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/lib/proj_spec/talker
+[7.505s] -- Set runtime path of "/home/kacper/Documents/projspec/projspec_ws/install/proj_spec/lib/proj_spec/talker" to ""
+[7.505s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/ament_index/resource_index/package_run_dependencies/proj_spec
+[7.505s] -- Installing: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/ament_index/resource_index/parent_prefix_path/proj_spec
+[7.505s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/ament_prefix_path.sh
+[7.505s] -- Installing: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/ament_prefix_path.dsv
+[7.505s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/path.sh
+[7.505s] -- Installing: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/path.dsv
+[7.505s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.bash
+[7.505s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.sh
+[7.505s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.zsh
+[7.505s] -- Installing: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.dsv
+[7.505s] -- Installing: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/package.dsv
+[7.505s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/ament_index/resource_index/packages/proj_spec
+[7.505s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/cmake/proj_specConfig.cmake
+[7.505s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/cmake/proj_specConfig-version.cmake
+[7.505s] -- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/package.xml
+[7.506s] Invoked command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/kacper/Documents/projspec/projspec_ws/build/proj_spec

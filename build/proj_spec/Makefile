@@ -210,6 +210,78 @@ talker/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/build
 .PHONY : talker/fast
 
+src/cirObstacle.o: src/cirObstacle.cpp.o
+.PHONY : src/cirObstacle.o
+
+# target to build an object file
+src/cirObstacle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/cirObstacle.cpp.o
+.PHONY : src/cirObstacle.cpp.o
+
+src/cirObstacle.i: src/cirObstacle.cpp.i
+.PHONY : src/cirObstacle.i
+
+# target to preprocess a source file
+src/cirObstacle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/cirObstacle.cpp.i
+.PHONY : src/cirObstacle.cpp.i
+
+src/cirObstacle.s: src/cirObstacle.cpp.s
+.PHONY : src/cirObstacle.s
+
+# target to generate assembly for a file
+src/cirObstacle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/cirObstacle.cpp.s
+.PHONY : src/cirObstacle.cpp.s
+
+src/nodes.o: src/nodes.cpp.o
+.PHONY : src/nodes.o
+
+# target to build an object file
+src/nodes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/nodes.cpp.o
+.PHONY : src/nodes.cpp.o
+
+src/nodes.i: src/nodes.cpp.i
+.PHONY : src/nodes.i
+
+# target to preprocess a source file
+src/nodes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/nodes.cpp.i
+.PHONY : src/nodes.cpp.i
+
+src/nodes.s: src/nodes.cpp.s
+.PHONY : src/nodes.s
+
+# target to generate assembly for a file
+src/nodes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/nodes.cpp.s
+.PHONY : src/nodes.cpp.s
+
+src/obstacle.o: src/obstacle.cpp.o
+.PHONY : src/obstacle.o
+
+# target to build an object file
+src/obstacle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/obstacle.cpp.o
+.PHONY : src/obstacle.cpp.o
+
+src/obstacle.i: src/obstacle.cpp.i
+.PHONY : src/obstacle.i
+
+# target to preprocess a source file
+src/obstacle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/obstacle.cpp.i
+.PHONY : src/obstacle.cpp.i
+
+src/obstacle.s: src/obstacle.cpp.s
+.PHONY : src/obstacle.s
+
+# target to generate assembly for a file
+src/obstacle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/obstacle.cpp.s
+.PHONY : src/obstacle.cpp.s
+
 src/publisher_member_function.o: src/publisher_member_function.cpp.o
 .PHONY : src/publisher_member_function.o
 
@@ -234,6 +306,54 @@ src/publisher_member_function.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/publisher_member_function.cpp.s
 .PHONY : src/publisher_member_function.cpp.s
 
+src/recObstacle.o: src/recObstacle.cpp.o
+.PHONY : src/recObstacle.o
+
+# target to build an object file
+src/recObstacle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/recObstacle.cpp.o
+.PHONY : src/recObstacle.cpp.o
+
+src/recObstacle.i: src/recObstacle.cpp.i
+.PHONY : src/recObstacle.i
+
+# target to preprocess a source file
+src/recObstacle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/recObstacle.cpp.i
+.PHONY : src/recObstacle.cpp.i
+
+src/recObstacle.s: src/recObstacle.cpp.s
+.PHONY : src/recObstacle.s
+
+# target to generate assembly for a file
+src/recObstacle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/recObstacle.cpp.s
+.PHONY : src/recObstacle.cpp.s
+
+src/world.o: src/world.cpp.o
+.PHONY : src/world.o
+
+# target to build an object file
+src/world.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/world.cpp.o
+.PHONY : src/world.cpp.o
+
+src/world.i: src/world.cpp.i
+.PHONY : src/world.i
+
+# target to preprocess a source file
+src/world.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/world.cpp.i
+.PHONY : src/world.cpp.i
+
+src/world.s: src/world.cpp.s
+.PHONY : src/world.s
+
+# target to generate assembly for a file
+src/world.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/world.cpp.s
+.PHONY : src/world.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +370,24 @@ help:
 	@echo "... proj_spec_uninstall"
 	@echo "... uninstall"
 	@echo "... talker"
+	@echo "... src/cirObstacle.o"
+	@echo "... src/cirObstacle.i"
+	@echo "... src/cirObstacle.s"
+	@echo "... src/nodes.o"
+	@echo "... src/nodes.i"
+	@echo "... src/nodes.s"
+	@echo "... src/obstacle.o"
+	@echo "... src/obstacle.i"
+	@echo "... src/obstacle.s"
 	@echo "... src/publisher_member_function.o"
 	@echo "... src/publisher_member_function.i"
 	@echo "... src/publisher_member_function.s"
+	@echo "... src/recObstacle.o"
+	@echo "... src/recObstacle.i"
+	@echo "... src/recObstacle.s"
+	@echo "... src/world.o"
+	@echo "... src/world.i"
+	@echo "... src/world.s"
 .PHONY : help
 
 

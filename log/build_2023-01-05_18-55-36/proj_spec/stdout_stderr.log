@@ -1,0 +1,70 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+In file included from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/recObstacle.hh:1[m[K,
+                 from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/world.hh:4[m[K,
+                 from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.hh:3[m[K,
+                 from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:24[m[K:
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:[m[K In member function ‘[01m[Kvirtual bool obstacle::checkCollision(float, float)[m[K’:
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:9:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    9 |     bool virtual checkCollision([01;35m[Kfloat x[m[K, float y)
+      |                                 [01;35m[K~~~~~~^[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:9:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    9 |     bool virtual checkCollision(float x, [01;35m[Kfloat y[m[K)
+      |                                          [01;35m[K~~~~~~^[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid RobotSteering::topic_callback_pose(const TFMessage&) const[m[K’:
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:418:44:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::pair<float, float>[m[K’ and ‘[01m[Kvoid[m[K’)
+  418 |         tmpPair = Nodes.finalPath.pop_back([01;31m[K)[m[K;
+      |                                            [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/utility:70[m[K,
+                 from [01m[K/usr/include/c++/11/tuple:38[m[K,
+                 from [01m[K/usr/include/c++/11/functional:54[m[K,
+                 from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:16[m[K:
+[01m[K/usr/include/c++/11/bits/stl_pair.h:418:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2> typename std::enable_if<std::__and_<std::is_assignable<_T1&, const _U1&>, std::is_assignable<_T2&, const _U2&> >::value, std::pair<_T1, _T2>&>::type std::pair<_T1, _T2>::operator=(const std::pair<_U1, _U2>&) [with _U1 = _U1; _U2 = _U2; _T1 = float; _T2 = float][m[K’
+  418 |         [01;36m[Koperator[m[K=(const pair<_U1, _U2>& __p)
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_pair.h:418:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:418:44:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::pair<_T1, _T2>[m[K’ and ‘[01m[Kvoid[m[K’
+  418 |         tmpPair = Nodes.finalPath.pop_back([01;36m[K)[m[K;
+      |                                            [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/utility:70[m[K,
+                 from [01m[K/usr/include/c++/11/tuple:38[m[K,
+                 from [01m[K/usr/include/c++/11/functional:54[m[K,
+                 from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:16[m[K:
+[01m[K/usr/include/c++/11/bits/stl_pair.h:430:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _U1, class _U2> typename std::enable_if<std::__and_<std::is_assignable<_T1&, _U1&&>, std::is_assignable<_T2&, _U2&&> >::value, std::pair<_T1, _T2>&>::type std::pair<_T1, _T2>::operator=(std::pair<_U1, _U2>&&) [with _U1 = _U1; _U2 = _U2; _T1 = float; _T2 = float][m[K’
+  430 |         [01;36m[Koperator[m[K=(pair<_U1, _U2>&& __p)
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_pair.h:430:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:418:44:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::pair<_T1, _T2>[m[K’ and ‘[01m[Kvoid[m[K’
+  418 |         tmpPair = Nodes.finalPath.pop_back([01;36m[K)[m[K;
+      |                                            [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/utility:70[m[K,
+                 from [01m[K/usr/include/c++/11/tuple:38[m[K,
+                 from [01m[K/usr/include/c++/11/functional:54[m[K,
+                 from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:16[m[K:
+[01m[K/usr/include/c++/11/bits/stl_pair.h:390:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::pair<_T1, _T2>& std::pair<_T1, _T2>::operator=(typename std::conditional<std::__and_<std::is_copy_assignable<_T1>, std::is_copy_assignable<_T2> >::value, const std::pair<_T1, _T2>&, const std::__nonesuch&>::type) [with _T1 = float; _T2 = float; typename std::conditional<std::__and_<std::is_copy_assignable<_T1>, std::is_copy_assignable<_T2> >::value, const std::pair<_T1, _T2>&, const std::__nonesuch&>::type = const std::pair<float, float>&][m[K’
+  390 |       [01;36m[Koperator[m[K=(typename conditional<
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_pair.h:393:55:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::conditional<true, const std::pair<float, float>&, const std::__nonesuch&>::type[m[K’ {aka ‘[01m[Kconst std::pair<float, float>&[m[K’}
+  390 |       operator=([01;36m[Ktypename conditional<[m[K
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~[m[K                  
+  391 | [01;36m[K                __and_<is_copy_assignable<_T1>,[m[K
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K        
+  392 | [01;36m[K                       is_copy_assignable<_T2>>::value,[m[K
+      |                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  393 | [01;36m[K                const pair&, const __nonesuch&>::type __p[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_pair.h:401:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::pair<_T1, _T2>& std::pair<_T1, _T2>::operator=(typename std::conditional<std::__and_<std::is_move_assignable<_Tp>, std::is_move_assignable<_T2> >::value, std::pair<_T1, _T2>&&, std::__nonesuch&&>::type) [with _T1 = float; _T2 = float; typename std::conditional<std::__and_<std::is_move_assignable<_Tp>, std::is_move_assignable<_T2> >::value, std::pair<_T1, _T2>&&, std::__nonesuch&&>::type = std::pair<float, float>&&][m[K’
+  401 |       [01;36m[Koperator[m[K=(typename conditional<
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_pair.h:404:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kstd::conditional<true, std::pair<float, float>&&, std::__nonesuch&&>::type[m[K’ {aka ‘[01m[Kstd::pair<float, float>&&[m[K’}
+  401 |       operator=([01;36m[Ktypename conditional<[m[K
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~[m[K        
+  402 | [01;36m[K                __and_<is_move_assignable<_T1>,[m[K
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  403 | [01;36m[K                       is_move_assignable<_T2>>::value,[m[K
+      |                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  404 | [01;36m[K                pair&&, __nonesuch&&>::type __p[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -15,7 +15,7 @@ find_package(geometry_msgs REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(tf2_msgs REQUIRED)
 
-add_executable(talker src/publisher_member_function.cpp)
+add_executable(talker src/publisher_member_function.cpp src/nodes.cpp src/obstacle.cpp src/recObstacle.cpp src/cirObstacle.cpp src/world.cpp)
 ament_target_dependencies(talker rclcpp std_msgs nav_msgs geometry_msgs tf2 tf2_msgs) 
 
 install(TARGETS

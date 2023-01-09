@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.000474] (proj_spec) JobQueued: {'identifier': 'proj_spec', 'dependencies': OrderedDict()}
+[0.000510] (proj_spec) JobStarted: {'identifier': 'proj_spec'}
+[0.007255] (proj_spec) JobProgress: {'identifier': 'proj_spec', 'progress': 'cmake'}
+[0.007676] (proj_spec) JobProgress: {'identifier': 'proj_spec', 'progress': 'build'}
+[0.008171] (proj_spec) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec', '--', '-j16', '-l16'], 'cwd': '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kacper'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/116/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/kacper'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.74.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/116/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/116/usr/share/code/code'), ('MANAGERPID', '1828'), ('SYSTEMD_EXEC_PID', '1984'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5960'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'kacper'), ('JOURNAL_STREAM', '8:41418'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kacper'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kacper-MS-7D25:@/tmp/.ICE-unix/1963,unix/kacper-MS-7D25:/tmp/.ICE-unix/1963'), ('INVOCATION_ID', 'b22bd4a56ccb43d1ace1bd99b08a0cb0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5FUFY1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7a8541603.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/116/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[0.033264] (proj_spec) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.043730] (proj_spec) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.099871] (-) TimerEvent: {}
+[0.200113] (-) TimerEvent: {}
+[0.300349] (-) TimerEvent: {}
+[0.348729] (proj_spec) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/recObstacle.hh:1\x1b[m\x1b[K,\n'}
+[0.348862] (proj_spec) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/world.hh:4\x1b[m\x1b[K,\n'}
+[0.348904] (proj_spec) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.hh:3\x1b[m\x1b[K,\n'}
+[0.348938] (proj_spec) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:24\x1b[m\x1b[K:\n'}
+[0.348970] (proj_spec) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool obstacle::checkCollision(float, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.349004] (proj_spec) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:9:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.349040] (proj_spec) StderrLine: {'line': b'    9 |     bool virtual checkCollision(\x1b[01;35m\x1b[Kfloat x\x1b[m\x1b[K, float y)\n'}
+[0.349071] (proj_spec) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~~~~~^\x1b[m\x1b[K\n'}
+[0.349101] (proj_spec) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:9:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.349135] (proj_spec) StderrLine: {'line': b'    9 |     bool virtual checkCollision(float x, \x1b[01;35m\x1b[Kfloat y\x1b[m\x1b[K)\n'}
+[0.349170] (proj_spec) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K~~~~~~^\x1b[m\x1b[K\n'}
+[0.400432] (-) TimerEvent: {}
+[0.500623] (-) TimerEvent: {}
+[0.600826] (-) TimerEvent: {}
+[0.701067] (-) TimerEvent: {}
+[0.801388] (-) TimerEvent: {}
+[0.901697] (-) TimerEvent: {}
+[1.001983] (-) TimerEvent: {}
+[1.102290] (-) TimerEvent: {}
+[1.202600] (-) TimerEvent: {}
+[1.302917] (-) TimerEvent: {}
+[1.403211] (-) TimerEvent: {}
+[1.503495] (-) TimerEvent: {}
+[1.603779] (-) TimerEvent: {}
+[1.704082] (-) TimerEvent: {}
+[1.804413] (-) TimerEvent: {}
+[1.904665] (-) TimerEvent: {}
+[2.004907] (-) TimerEvent: {}
+[2.105131] (-) TimerEvent: {}
+[2.205345] (-) TimerEvent: {}
+[2.305567] (-) TimerEvent: {}
+[2.405829] (-) TimerEvent: {}
+[2.506123] (-) TimerEvent: {}
+[2.606365] (-) TimerEvent: {}
+[2.706625] (-) TimerEvent: {}
+[2.806888] (-) TimerEvent: {}
+[2.907114] (-) TimerEvent: {}
+[3.007360] (-) TimerEvent: {}
+[3.107566] (-) TimerEvent: {}
+[3.207793] (-) TimerEvent: {}
+[3.308079] (-) TimerEvent: {}
+[3.408252] (-) TimerEvent: {}
+[3.508529] (-) TimerEvent: {}
+[3.608768] (-) TimerEvent: {}
+[3.709017] (-) TimerEvent: {}
+[3.809264] (-) TimerEvent: {}
+[3.909518] (-) TimerEvent: {}
+[4.009754] (-) TimerEvent: {}
+[4.109966] (-) TimerEvent: {}
+[4.210171] (-) TimerEvent: {}
+[4.310417] (-) TimerEvent: {}
+[4.410669] (-) TimerEvent: {}
+[4.510928] (-) TimerEvent: {}
+[4.611129] (-) TimerEvent: {}
+[4.711491] (-) TimerEvent: {}
+[4.812125] (-) TimerEvent: {}
+[4.912664] (-) TimerEvent: {}
+[5.012870] (-) TimerEvent: {}
+[5.113104] (-) TimerEvent: {}
+[5.154466] (proj_spec) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[5.213226] (-) TimerEvent: {}
+[5.313485] (-) TimerEvent: {}
+[5.365655] (proj_spec) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o: in function `findPath()':\n"}
+[5.365778] (proj_spec) StderrLine: {'line': b"publisher_member_function.cpp:(.text+0xa4): undefined reference to `nodes::addStart(float, float, int)'\n"}
+[5.365841] (proj_spec) StderrLine: {'line': b"/usr/bin/ld: publisher_member_function.cpp:(.text+0xca): undefined reference to `nodes::addEnd(float, float, int)'\n"}
+[5.365974] (proj_spec) StderrLine: {'line': b"/usr/bin/ld: publisher_member_function.cpp:(.text+0xe8): undefined reference to `nodes::generateNodes(int, float)'\n"}
+[5.366207] (proj_spec) StderrLine: {'line': b"/usr/bin/ld: publisher_member_function.cpp:(.text+0xf7): undefined reference to `nodes::findDistance()'\n"}
+[5.387212] (proj_spec) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[5.388054] (proj_spec) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:200: talker] Error 1\n'}
+[5.388307] (proj_spec) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2\n'}
+[5.388510] (proj_spec) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.389390] (proj_spec) CommandEnded: {'returncode': 2}
+[5.407740] (proj_spec) JobEnded: {'identifier': 'proj_spec', 'rc': 2}
+[5.413559] (-) TimerEvent: {}
+[5.419031] (-) EventReactorShutdown: {}

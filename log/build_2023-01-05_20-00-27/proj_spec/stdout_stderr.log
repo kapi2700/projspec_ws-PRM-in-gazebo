@@ -1,0 +1,37 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/talker.dir/src/nodes.cpp.o[0m
+In file included from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/recObstacle.hh:1[m[K,
+                 from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/world.hh:4[m[K,
+                 from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.hh:3[m[K,
+                 from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.cpp:1[m[K:
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:[m[K In member function ‘[01m[Kvirtual bool obstacle::checkCollision(float, float)[m[K’:
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:9:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    9 |     bool virtual checkCollision([01;35m[Kfloat x[m[K, float y)
+      |                                 [01;35m[K~~~~~~^[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:9:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    9 |     bool virtual checkCollision(float x, [01;35m[Kfloat y[m[K)
+      |                                          [01;35m[K~~~~~~^[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.cpp:[m[K In member function ‘[01m[Kvoid nodes::findDistance()[m[K’:
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.cpp:76:19:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kadj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+   76 |     vector<iPair> [01;35m[Kadj[m[K[V];
+      |                   [01;35m[K^~~[m[K
+[ 28%] [32m[1mLinking CXX executable talker[0m
+[100%] Built target talker
+-- Install configuration: ""
+-- Installing: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/lib/proj_spec/talker
+-- Set runtime path of "/home/kacper/Documents/projspec/projspec_ws/install/proj_spec/lib/proj_spec/talker" to ""
+-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/ament_index/resource_index/package_run_dependencies/proj_spec
+-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/ament_index/resource_index/parent_prefix_path/proj_spec
+-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/path.sh
+-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/environment/path.dsv
+-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.bash
+-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.sh
+-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.zsh
+-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/local_setup.dsv
+-- Installing: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/package.dsv
+-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/ament_index/resource_index/packages/proj_spec
+-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/cmake/proj_specConfig.cmake
+-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/cmake/proj_specConfig-version.cmake
+-- Up-to-date: /home/kacper/Documents/projspec/projspec_ws/install/proj_spec/share/proj_spec/package.xml

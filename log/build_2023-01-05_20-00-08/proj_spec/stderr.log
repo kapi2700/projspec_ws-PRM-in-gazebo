@@ -1,0 +1,18 @@
+In file included from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/recObstacle.hh:1[m[K,
+                 from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/world.hh:4[m[K,
+                 from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.hh:3[m[K,
+                 from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.cpp:1[m[K:
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:[m[K In member function ‘[01m[Kvirtual bool obstacle::checkCollision(float, float)[m[K’:
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:9:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    9 |     bool virtual checkCollision([01;35m[Kfloat x[m[K, float y)
+      |                                 [01;35m[K~~~~~~^[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:9:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    9 |     bool virtual checkCollision(float x, [01;35m[Kfloat y[m[K)
+      |                                          [01;35m[K~~~~~~^[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.cpp:[m[K In member function ‘[01m[Kvoid nodes::findDistance()[m[K’:
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.cpp:76:19:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kadj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+   76 |     vector<iPair> [01;35m[Kadj[m[K[V];
+      |                   [01;35m[K^~~[m[K
+[01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.cpp:84:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   84 |     for(int i=0;[01;35m[Ki<path.size()[m[K;i++)
+      |                 [01;35m[K~^~~~~~~~~~~~[m[K

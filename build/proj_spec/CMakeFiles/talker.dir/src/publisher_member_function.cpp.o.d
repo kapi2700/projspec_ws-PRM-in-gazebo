@@ -204,8 +204,26 @@ CMakeFiles/talker.dir/src/publisher_member_function.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp \
- /usr/include/c++/11/csignal /usr/include/signal.h \
+ /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.hh \
+ /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/world.hh \
+ /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/recObstacle.hh \
+ /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh \
+ /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/cirObstacle.hh \
+ /usr/include/c++/11/stdlib.h /usr/include/c++/11/iostream \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h \
+ /usr/include/c++/11/cassert /usr/include/assert.h \
+ /usr/include/c++/11/cfloat \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+ /usr/include/c++/11/ciso646 /usr/include/c++/11/climits \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/c++/11/csetjmp \
+ /usr/include/setjmp.h /usr/include/c++/11/csignal /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
@@ -234,30 +252,87 @@ CMakeFiles/talker.dir/src/publisher_member_function.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
- /opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp \
- /usr/include/c++/11/future /usr/include/c++/11/mutex \
- /usr/include/c++/11/bits/std_mutex.h \
- /usr/include/c++/11/bits/unique_lock.h \
- /usr/include/c++/11/condition_variable /usr/include/c++/11/atomic \
- /usr/include/c++/11/bits/atomic_futex.h \
- /usr/include/c++/11/bits/std_thread.h \
- /opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp \
- /usr/include/c++/11/set /usr/include/c++/11/bits/stl_tree.h \
- /usr/include/c++/11/bits/stl_set.h \
- /usr/include/c++/11/bits/stl_multiset.h /usr/include/c++/11/thread \
- /usr/include/c++/11/bits/this_thread_sleep.h \
- /opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp \
- /usr/include/c++/11/algorithm \
+ /usr/include/c++/11/cstdarg /usr/include/c++/11/cstddef \
+ /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
+ /usr/include/c++/11/ccomplex /usr/include/c++/11/complex \
+ /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
+ /usr/include/c++/11/cfenv /usr/include/c++/11/fenv.h /usr/include/fenv.h \
+ /usr/include/x86_64-linux-gnu/bits/fenv.h /usr/include/c++/11/cinttypes \
+ /usr/include/inttypes.h /usr/include/c++/11/cstdalign \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h \
+ /usr/include/c++/11/cstdbool \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+ /usr/include/c++/11/ctgmath /usr/include/c++/11/cuchar \
+ /usr/include/uchar.h /usr/include/c++/11/algorithm \
  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
- /usr/include/c++/11/cassert /usr/include/assert.h \
- /usr/include/c++/11/iostream /usr/include/c++/11/list \
+ /usr/include/c++/11/bitset /usr/include/c++/11/deque \
+ /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
+ /usr/include/c++/11/iomanip /usr/include/c++/11/locale \
+ /usr/include/c++/11/bits/locale_facets_nonio.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/11/bits/locale_conv.h \
+ /usr/include/c++/11/bits/quoted_string.h /usr/include/c++/11/iterator \
+ /usr/include/c++/11/bits/stream_iterator.h /usr/include/c++/11/list \
  /usr/include/c++/11/bits/stl_list.h /usr/include/c++/11/bits/list.tcc \
- /usr/include/c++/11/map /usr/include/c++/11/bits/stl_map.h \
- /usr/include/c++/11/bits/stl_multimap.h \
+ /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
+ /usr/include/c++/11/bits/stl_map.h \
+ /usr/include/c++/11/bits/stl_multimap.h /usr/include/c++/11/numeric \
+ /usr/include/c++/11/bits/stl_numeric.h \
+ /usr/include/c++/11/pstl/glue_numeric_defs.h /usr/include/c++/11/queue \
+ /usr/include/c++/11/bits/stl_queue.h /usr/include/c++/11/set \
+ /usr/include/c++/11/bits/stl_set.h \
+ /usr/include/c++/11/bits/stl_multiset.h /usr/include/c++/11/stack \
+ /usr/include/c++/11/bits/stl_stack.h /usr/include/c++/11/valarray \
+ /usr/include/c++/11/bits/valarray_array.h \
+ /usr/include/c++/11/bits/valarray_array.tcc \
+ /usr/include/c++/11/bits/valarray_before.h \
+ /usr/include/c++/11/bits/slice_array.h \
+ /usr/include/c++/11/bits/valarray_after.h \
+ /usr/include/c++/11/bits/gslice.h \
+ /usr/include/c++/11/bits/gslice_array.h \
+ /usr/include/c++/11/bits/mask_array.h \
+ /usr/include/c++/11/bits/indirect_array.h /usr/include/c++/11/atomic \
+ /usr/include/c++/11/codecvt /usr/include/c++/11/condition_variable \
+ /usr/include/c++/11/bits/std_mutex.h \
+ /usr/include/c++/11/bits/unique_lock.h /usr/include/c++/11/forward_list \
+ /usr/include/c++/11/bits/forward_list.h \
+ /usr/include/c++/11/bits/forward_list.tcc /usr/include/c++/11/future \
+ /usr/include/c++/11/mutex /usr/include/c++/11/bits/atomic_futex.h \
+ /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/random \
+ /usr/include/c++/11/bits/random.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h \
+ /usr/include/c++/11/bits/random.tcc /usr/include/c++/11/regex \
+ /usr/include/c++/11/bits/regex_constants.h \
+ /usr/include/c++/11/bits/regex_error.h \
+ /usr/include/c++/11/bits/regex_automaton.h \
+ /usr/include/c++/11/bits/regex_automaton.tcc \
+ /usr/include/c++/11/bits/regex_scanner.h \
+ /usr/include/c++/11/bits/regex_scanner.tcc \
+ /usr/include/c++/11/bits/regex_compiler.h \
+ /usr/include/c++/11/bits/regex_compiler.tcc \
+ /usr/include/c++/11/bits/regex.h /usr/include/c++/11/bits/regex.tcc \
+ /usr/include/c++/11/bits/regex_executor.h \
+ /usr/include/c++/11/bits/regex_executor.tcc \
+ /usr/include/c++/11/scoped_allocator /usr/include/c++/11/thread \
+ /usr/include/c++/11/bits/this_thread_sleep.h \
+ /usr/include/c++/11/typeindex /usr/include/c++/11/unordered_set \
+ /usr/include/c++/11/bits/unordered_set.h \
+ /usr/include/c++/11/shared_mutex /usr/include/c++/11/any \
+ /usr/include/c++/11/charconv /usr/include/c++/11/filesystem \
+ /usr/include/c++/11/bits/fs_fwd.h /usr/include/c++/11/bits/fs_path.h \
+ /usr/include/c++/11/bits/fs_dir.h /usr/include/c++/11/bits/fs_ops.h \
+ /usr/include/c++/11/optional /usr/include/c++/11/memory_resource \
+ /usr/include/c++/11/bits/uses_allocator_args.h \
+ /usr/include/c++/11/variant \
+ /opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp \
+ /opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp \
+ /opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp \
+ /opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp \
  /opt/ros/rolling/include/rcl/rcl/guard_condition.h \
  /opt/ros/rolling/include/rcl/rcl/allocator.h \
  /opt/ros/rolling/include/rcutils/rcutils/allocator.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /opt/ros/rolling/include/rcutils/rcutils/macros.h \
  /opt/ros/rolling/include/rcutils/rcutils/testing/fault_injection.h \
  /opt/ros/rolling/include/rcutils/rcutils/visibility_control.h \
@@ -279,8 +354,6 @@ CMakeFiles/talker.dir/src/publisher_member_function.cpp.o: \
  /opt/ros/rolling/include/rmw/rmw/types.h \
  /opt/ros/rolling/include/rcutils/rcutils/logging.h \
  /opt/ros/rolling/include/rcutils/rcutils/error_handling.h \
- /usr/include/c++/11/stdlib.h /usr/include/string.h \
- /usr/include/strings.h \
  /opt/ros/rolling/include/rcutils/rcutils/snprintf.h \
  /opt/ros/rolling/include/rcutils/rcutils/time.h \
  /opt/ros/rolling/include/rcutils/rcutils/types.h \
@@ -305,7 +378,6 @@ CMakeFiles/talker.dir/src/publisher_member_function.cpp.o: \
  /opt/ros/rolling/include/rcl/rcl/visibility_control.h \
  /opt/ros/rolling/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
  /opt/ros/rolling/include/rcl/rcl/init_options.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h \
  /opt/ros/rolling/include/rcl/rcl/wait.h \
  /opt/ros/rolling/include/rcl/rcl/client.h \
  /opt/ros/rolling/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
@@ -332,8 +404,6 @@ CMakeFiles/talker.dir/src/publisher_member_function.cpp.o: \
  /opt/ros/rolling/include/rcl/rcl/publisher.h \
  /opt/ros/rolling/include/rcpputils/rcpputils/scope_exit.hpp \
  /opt/ros/rolling/include/rclcpp/rclcpp/context.hpp \
- /usr/include/c++/11/typeindex /usr/include/c++/11/unordered_set \
- /usr/include/c++/11/bits/unordered_set.h \
  /opt/ros/rolling/include/rclcpp/rclcpp/init_options.hpp \
  /opt/ros/rolling/include/rclcpp/rclcpp/visibility_control.hpp \
  /opt/ros/rolling/include/rclcpp/rclcpp/macros.hpp \
@@ -345,14 +415,11 @@ CMakeFiles/talker.dir/src/publisher_member_function.cpp.o: \
  /opt/ros/rolling/include/rclcpp/rclcpp/any_executable.hpp \
  /opt/ros/rolling/include/rclcpp/rclcpp/callback_group.hpp \
  /opt/ros/rolling/include/rclcpp/rclcpp/client.hpp \
- /usr/include/c++/11/optional /usr/include/c++/11/sstream \
- /usr/include/c++/11/bits/sstream.tcc /usr/include/c++/11/variant \
  /opt/ros/rolling/include/rcl/rcl/error_handling.h \
  /opt/ros/rolling/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp \
  /opt/ros/rolling/include/rclcpp/rclcpp/exceptions.hpp \
  /opt/ros/rolling/include/rclcpp/rclcpp/exceptions/exceptions.hpp \
  /opt/ros/rolling/include/rcpputils/rcpputils/join.hpp \
- /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
  /opt/ros/rolling/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp \
  /opt/ros/rolling/include/rclcpp/rclcpp/function_traits.hpp \
  /opt/ros/rolling/include/rclcpp/rclcpp/logging.hpp \
@@ -378,14 +445,6 @@ CMakeFiles/talker.dir/src/publisher_member_function.cpp.o: \
  /opt/ros/rolling/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
  /opt/ros/rolling/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
  /opt/ros/rolling/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
- /usr/include/c++/11/codecvt /usr/include/c++/11/iomanip \
- /usr/include/c++/11/locale \
- /usr/include/c++/11/bits/locale_facets_nonio.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/11/bits/locale_facets_nonio.tcc \
- /usr/include/c++/11/bits/locale_conv.h \
- /usr/include/c++/11/bits/quoted_string.h \
  /opt/ros/rolling/include/rcl/rcl/logging_rosout.h \
  /opt/ros/rolling/include/rmw/rmw/incompatible_qos_events_statuses.h \
  /opt/ros/rolling/include/rclcpp/rclcpp/type_support_decl.hpp \
@@ -415,14 +474,12 @@ CMakeFiles/talker.dir/src/publisher_member_function.cpp.o: \
  /opt/ros/rolling/include/rclcpp/rclcpp/subscription_base.hpp \
  /opt/ros/rolling/include/rclcpp/rclcpp/any_subscription_callback.hpp \
  /opt/ros/rolling/include/rclcpp/rclcpp/allocator/allocator_common.hpp \
- /usr/include/c++/11/cstring \
  /opt/ros/rolling/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp \
  /opt/ros/rolling/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp \
  /opt/ros/rolling/include/rclcpp/rclcpp/message_info.hpp \
  /opt/ros/rolling/include/rclcpp/rclcpp/serialized_message.hpp \
  /opt/ros/rolling/include/rclcpp/rclcpp/type_adapter.hpp \
  /opt/ros/rolling/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp \
- /usr/include/c++/11/shared_mutex \
  /opt/ros/rolling/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp \
  /opt/ros/rolling/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp \
  /opt/ros/rolling/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp \
@@ -473,8 +530,6 @@ CMakeFiles/talker.dir/src/publisher_member_function.cpp.o: \
  /opt/ros/rolling/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
  /opt/ros/rolling/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
  /opt/ros/rolling/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp \
- /usr/include/c++/11/numeric /usr/include/c++/11/bits/stl_numeric.h \
- /usr/include/c++/11/pstl/glue_numeric_defs.h \
  /opt/ros/rolling/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
  /opt/ros/rolling/include/rcpputils/rcpputils/thread_safety_annotations.hpp \
  /opt/ros/rolling/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
@@ -630,8 +685,7 @@ CMakeFiles/talker.dir/src/publisher_member_function.cpp.o: \
  /opt/ros/rolling/include/tf2/tf2/LinearMath/Quaternion.h \
  /opt/ros/rolling/include/tf2/tf2/LinearMath/Vector3.h \
  /opt/ros/rolling/include/tf2/tf2/LinearMath/Scalar.h \
- /usr/include/c++/11/math.h /usr/include/c++/11/cfloat \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+ /usr/include/c++/11/math.h \
  /opt/ros/rolling/include/tf2/tf2/LinearMath/MinMax.h \
  /opt/ros/rolling/include/tf2/tf2/visibility_control.h \
  /opt/ros/rolling/include/tf2/tf2/LinearMath/QuadWord.h \

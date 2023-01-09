@@ -83,14 +83,94 @@ CMakeFiles/talker.dir/src/publisher_member_function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/talker.dir/src/publisher_member_function.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp -o CMakeFiles/talker.dir/src/publisher_member_function.cpp.s
 
+CMakeFiles/talker.dir/src/nodes.cpp.o: CMakeFiles/talker.dir/flags.make
+CMakeFiles/talker.dir/src/nodes.cpp.o: /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.cpp
+CMakeFiles/talker.dir/src/nodes.cpp.o: CMakeFiles/talker.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kacper/Documents/projspec/projspec_ws/build/proj_spec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/talker.dir/src/nodes.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/talker.dir/src/nodes.cpp.o -MF CMakeFiles/talker.dir/src/nodes.cpp.o.d -o CMakeFiles/talker.dir/src/nodes.cpp.o -c /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.cpp
+
+CMakeFiles/talker.dir/src/nodes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/talker.dir/src/nodes.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.cpp > CMakeFiles/talker.dir/src/nodes.cpp.i
+
+CMakeFiles/talker.dir/src/nodes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/talker.dir/src/nodes.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.cpp -o CMakeFiles/talker.dir/src/nodes.cpp.s
+
+CMakeFiles/talker.dir/src/obstacle.cpp.o: CMakeFiles/talker.dir/flags.make
+CMakeFiles/talker.dir/src/obstacle.cpp.o: /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.cpp
+CMakeFiles/talker.dir/src/obstacle.cpp.o: CMakeFiles/talker.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kacper/Documents/projspec/projspec_ws/build/proj_spec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/talker.dir/src/obstacle.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/talker.dir/src/obstacle.cpp.o -MF CMakeFiles/talker.dir/src/obstacle.cpp.o.d -o CMakeFiles/talker.dir/src/obstacle.cpp.o -c /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.cpp
+
+CMakeFiles/talker.dir/src/obstacle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/talker.dir/src/obstacle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.cpp > CMakeFiles/talker.dir/src/obstacle.cpp.i
+
+CMakeFiles/talker.dir/src/obstacle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/talker.dir/src/obstacle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.cpp -o CMakeFiles/talker.dir/src/obstacle.cpp.s
+
+CMakeFiles/talker.dir/src/recObstacle.cpp.o: CMakeFiles/talker.dir/flags.make
+CMakeFiles/talker.dir/src/recObstacle.cpp.o: /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/recObstacle.cpp
+CMakeFiles/talker.dir/src/recObstacle.cpp.o: CMakeFiles/talker.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kacper/Documents/projspec/projspec_ws/build/proj_spec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/talker.dir/src/recObstacle.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/talker.dir/src/recObstacle.cpp.o -MF CMakeFiles/talker.dir/src/recObstacle.cpp.o.d -o CMakeFiles/talker.dir/src/recObstacle.cpp.o -c /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/recObstacle.cpp
+
+CMakeFiles/talker.dir/src/recObstacle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/talker.dir/src/recObstacle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/recObstacle.cpp > CMakeFiles/talker.dir/src/recObstacle.cpp.i
+
+CMakeFiles/talker.dir/src/recObstacle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/talker.dir/src/recObstacle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/recObstacle.cpp -o CMakeFiles/talker.dir/src/recObstacle.cpp.s
+
+CMakeFiles/talker.dir/src/cirObstacle.cpp.o: CMakeFiles/talker.dir/flags.make
+CMakeFiles/talker.dir/src/cirObstacle.cpp.o: /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/cirObstacle.cpp
+CMakeFiles/talker.dir/src/cirObstacle.cpp.o: CMakeFiles/talker.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kacper/Documents/projspec/projspec_ws/build/proj_spec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/talker.dir/src/cirObstacle.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/talker.dir/src/cirObstacle.cpp.o -MF CMakeFiles/talker.dir/src/cirObstacle.cpp.o.d -o CMakeFiles/talker.dir/src/cirObstacle.cpp.o -c /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/cirObstacle.cpp
+
+CMakeFiles/talker.dir/src/cirObstacle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/talker.dir/src/cirObstacle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/cirObstacle.cpp > CMakeFiles/talker.dir/src/cirObstacle.cpp.i
+
+CMakeFiles/talker.dir/src/cirObstacle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/talker.dir/src/cirObstacle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/cirObstacle.cpp -o CMakeFiles/talker.dir/src/cirObstacle.cpp.s
+
+CMakeFiles/talker.dir/src/world.cpp.o: CMakeFiles/talker.dir/flags.make
+CMakeFiles/talker.dir/src/world.cpp.o: /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/world.cpp
+CMakeFiles/talker.dir/src/world.cpp.o: CMakeFiles/talker.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kacper/Documents/projspec/projspec_ws/build/proj_spec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/talker.dir/src/world.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/talker.dir/src/world.cpp.o -MF CMakeFiles/talker.dir/src/world.cpp.o.d -o CMakeFiles/talker.dir/src/world.cpp.o -c /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/world.cpp
+
+CMakeFiles/talker.dir/src/world.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/talker.dir/src/world.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/world.cpp > CMakeFiles/talker.dir/src/world.cpp.i
+
+CMakeFiles/talker.dir/src/world.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/talker.dir/src/world.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/world.cpp -o CMakeFiles/talker.dir/src/world.cpp.s
+
 # Object files for target talker
 talker_OBJECTS = \
-"CMakeFiles/talker.dir/src/publisher_member_function.cpp.o"
+"CMakeFiles/talker.dir/src/publisher_member_function.cpp.o" \
+"CMakeFiles/talker.dir/src/nodes.cpp.o" \
+"CMakeFiles/talker.dir/src/obstacle.cpp.o" \
+"CMakeFiles/talker.dir/src/recObstacle.cpp.o" \
+"CMakeFiles/talker.dir/src/cirObstacle.cpp.o" \
+"CMakeFiles/talker.dir/src/world.cpp.o"
 
 # External object files for target talker
 talker_EXTERNAL_OBJECTS =
 
 talker: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o
+talker: CMakeFiles/talker.dir/src/nodes.cpp.o
+talker: CMakeFiles/talker.dir/src/obstacle.cpp.o
+talker: CMakeFiles/talker.dir/src/recObstacle.cpp.o
+talker: CMakeFiles/talker.dir/src/cirObstacle.cpp.o
+talker: CMakeFiles/talker.dir/src/world.cpp.o
 talker: CMakeFiles/talker.dir/build.make
 talker: /opt/ros/rolling/lib/librclcpp.so
 talker: /opt/ros/rolling/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so
@@ -196,7 +276,7 @@ talker: /opt/ros/rolling/lib/librcpputils.so
 talker: /opt/ros/rolling/lib/librosidl_runtime_c.so
 talker: /opt/ros/rolling/lib/librcutils.so
 talker: CMakeFiles/talker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kacper/Documents/projspec/projspec_ws/build/proj_spec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable talker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kacper/Documents/projspec/projspec_ws/build/proj_spec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable talker"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/talker.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,0 +1,25 @@
+[0.011s] Invoking command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.048s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.357s] In file included from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/recObstacle.hh:1[m[K,
+[0.357s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/world.hh:4[m[K,
+[0.357s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.hh:3[m[K,
+[0.357s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:24[m[K:
+[0.357s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:[m[K In member function ‘[01m[Kvirtual bool obstacle::checkCollision(float, float)[m[K’:
+[0.357s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:9:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.357s]     9 |     bool virtual checkCollision([01;35m[Kfloat x[m[K, float y)
+[0.358s]       |                                 [01;35m[K~~~~~~^[m[K
+[0.358s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:9:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.358s]     9 |     bool virtual checkCollision(float x, [01;35m[Kfloat y[m[K)
+[0.358s]       |                                          [01;35m[K~~~~~~^[m[K
+[5.149s] [100%] [32m[1mLinking CXX executable talker[0m
+[5.363s] /usr/bin/ld: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o: in function `findPath()':
+[5.363s] publisher_member_function.cpp:(.text+0xa4): undefined reference to `nodes::addStart(float, float, int)'
+[5.363s] /usr/bin/ld: publisher_member_function.cpp:(.text+0xca): undefined reference to `nodes::addEnd(float, float, int)'
+[5.363s] /usr/bin/ld: publisher_member_function.cpp:(.text+0xe8): undefined reference to `nodes::generateNodes(int, float)'
+[5.363s] /usr/bin/ld: publisher_member_function.cpp:(.text+0xf7): undefined reference to `nodes::findDistance()'
+[5.385s] collect2: error: ld returned 1 exit status
+[5.386s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:200: talker] Error 1
+[5.386s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+[5.386s] gmake: *** [Makefile:146: all] Error 2
+[5.387s] Invoked command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec' returned '2': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16

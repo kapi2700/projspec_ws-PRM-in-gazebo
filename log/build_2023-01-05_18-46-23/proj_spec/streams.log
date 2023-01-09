@@ -1,0 +1,63 @@
+[0.009s] Invoking command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16
+[0.028s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.038s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.325s] In file included from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/recObstacle.hh:1[m[K,
+[0.325s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/world.hh:4[m[K,
+[0.325s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.hh:3[m[K,
+[0.325s]                  from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:24[m[K:
+[0.326s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:[m[K In member function ‘[01m[Kvirtual bool obstacle::checkCollision(float, float)[m[K’:
+[0.326s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:9:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.326s]     9 |     bool virtual checkCollision([01;35m[Kfloat x[m[K, float y)
+[0.326s]       |                                 [01;35m[K~~~~~~^[m[K
+[0.326s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/obstacle.hh:9:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.326s]     9 |     bool virtual checkCollision(float x, [01;35m[Kfloat y[m[K)
+[0.326s]       |                                          [01;35m[K~~~~~~^[m[K
+[1.384s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid RobotSteering::topic_callback(const Odometry&) const[m[K’:
+[1.384s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:132:7:[m[K [01;31m[Kerror: [m[K‘[01m[KFisrtPose[m[K’ was not declared in this scope; did you mean ‘[01m[KFirstPose[m[K’?
+[1.384s]   132 |       [01;31m[KFisrtPose[m[K=true;
+[1.384s]       |       [01;31m[K^~~~~~~~~[m[K
+[1.384s]       |       [32m[KFirstPose[m[K
+[1.385s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:230:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass nodes[m[K’ has no member named ‘[01m[KfianlPath[m[K’; did you mean ‘[01m[KfinalPath[m[K’?
+[1.385s]   230 |         tmpPair=Nodes.[01;31m[KfianlPath[m[K.pop()
+[1.385s]       |                       [01;31m[K^~~~~~~~~[m[K
+[1.385s]       |                       [32m[KfinalPath[m[K
+[1.389s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:236:9:[m[K [01;31m[Kerror: [m[K‘[01m[KdistanceEnd[m[K’ was not declared in this scope; did you mean ‘[01m[Kdistance[m[K’?
+[1.389s]   236 |         [01;31m[KdistanceEnd[m[K = sqrt((ENDX - x) * (ENDX - x) + (ENDY - y) * (ENDY - y));
+[1.389s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.389s]       |         [32m[Kdistance[m[K
+[1.393s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid RobotSteering::timer_callback()[m[K’:
+[1.393s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:262:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kreutrn[m[K’ was not declared in this scope
+[1.393s]   262 |       [01;31m[Kreutrn[m[K;
+[1.393s]       |       [01;31m[K^~~~~~[m[K
+[1.393s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid RobotSteering::findPath()[m[K’:
+[1.393s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:277:21:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Knodes::addStart(float&, float&)[m[K’
+[1.393s]   277 |       [01;31m[KNodes.addStart(startX,startY)[m[K;
+[1.393s]       |       [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[1.393s] In file included from [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:24[m[K:
+[1.394s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.hh:66:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid nodes::addStart(float, float, int)[m[K’
+[1.394s]    66 |     void [01;36m[KaddStart[m[K(float x, float y, int R);
+[1.394s]       |          [01;36m[K^~~~~~~~[m[K
+[1.401s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/nodes.hh:66:10:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[1.405s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid RobotSteering::topic_callback_pose(const TFMessage&) const[m[K’:
+[1.405s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:321:7:[m[K [01;31m[Kerror: [m[K‘[01m[KFisrtPose[m[K’ was not declared in this scope; did you mean ‘[01m[KFirstPose[m[K’?
+[1.405s]   321 |       [01;31m[KFisrtPose[m[K=true;
+[1.405s]       |       [01;31m[K^~~~~~~~~[m[K
+[1.405s]       |       [32m[KFirstPose[m[K
+[1.405s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:323:15:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst RobotSteering[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.405s]   323 |       [01;31m[KfindPath()[m[K;
+[1.405s]       |       [01;31m[K~~~~~~~~^~[m[K
+[1.405s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:273:8:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kvoid RobotSteering::findPath()[m[K’
+[1.405s]   273 |   void [01;36m[KfindPath[m[K()
+[1.405s]       |        [01;36m[K^~~~~~~~[m[K
+[1.405s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:425:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass nodes[m[K’ has no member named ‘[01m[KfianlPath[m[K’; did you mean ‘[01m[KfinalPath[m[K’?
+[1.406s]   425 |         tmpPair=Nodes.[01;31m[KfianlPath[m[K.pop()
+[1.406s]       |                       [01;31m[K^~~~~~~~~[m[K
+[1.406s]       |                       [32m[KfinalPath[m[K
+[1.408s] [01m[K/home/kacper/Documents/projspec/projspec_ws/src/proj_spec/src/publisher_member_function.cpp:431:9:[m[K [01;31m[Kerror: [m[K‘[01m[KdistanceEnd[m[K’ was not declared in this scope; did you mean ‘[01m[Kdistance[m[K’?
+[1.408s]   431 |         [01;31m[KdistanceEnd[m[K = sqrt((ENDX - x) * (ENDX - x) + (ENDY - y) * (ENDY - y));
+[1.409s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.409s]       |         [32m[Kdistance[m[K
+[2.623s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[2.623s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+[2.623s] gmake: *** [Makefile:146: all] Error 2
+[2.625s] Invoked command in '/home/kacper/Documents/projspec/projspec_ws/build/proj_spec' returned '2': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/kacper/Documents/projspec/projspec_ws/build/proj_spec -- -j16 -l16
