@@ -41,7 +41,7 @@ using namespace std;
 #define MARGIN 1.0
 #define NODEDIST 3.0
 #define ENDX 10
-#define ENDY 10
+#define ENDY 5
 #define NODESAMOUNT 50
 
 #define NETWORKRANGE 4
@@ -51,7 +51,7 @@ using namespace std;
  *************************/
 #define AMOUNTOFROBOTS 2
 
-string robotnr = "1";
+string robotnr = "2";
 
 /*************************
  * End of mportant edits *
